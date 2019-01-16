@@ -1,2 +1,1 @@
-# Python-Programming-Projects---Learn-Python-3.7-by-building-applications
-Python Programming Projects - Learn Python 3.7 by building applications, published by Packt
+# The code for this repository is under development :construction_worker:
