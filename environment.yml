@@ -1,0 +1,19 @@
+name: root
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.2
+  - tqdm
+  - numpy
+  - matplotlib
+  - pandas
+  - geopandas
+  - scikit-learn
+  - scipy
+  - requests
+  - beautifulsoup4
+  - luigi
+  - hug
+  - pip
+  - pip:
+    - altair
