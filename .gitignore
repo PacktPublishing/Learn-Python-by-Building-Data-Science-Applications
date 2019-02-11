@@ -5,3 +5,5 @@ __pycache__
 .ipynb_checkpoints
 .tox
 .DS_Store
+.nbgrader.log
+**.png
