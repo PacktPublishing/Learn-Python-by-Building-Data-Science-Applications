@@ -1,0 +1,9 @@
+*.py[co]
+__pycache__
+*.egg-info
+*~
+.ipynb_checkpoints
+.tox
+.DS_Store
+.nbgrader.log
+**.png
