@@ -32,12 +32,15 @@ def _get_main_info(table):
     return  _table_to_dict(main)
 
 
-def _parse_row(row):
+def _parse_row(row, names=('allies', 'axis', 'third party')):
     '''parse secondory info row
-    as list of strings
+    as dict of info points
     '''
     cells = row.find_all('td', recursive=False)
-    return [cell.get_text().strip() for cell in cells]
+    if len(cells) == 1:
+        return {'total':cells[0].get_text().strip()}
+
+    return { name:cell.get_text().strip() for name, cell in zip(names, cells)}
     
 def _find_row_by_header(table, string):
     '''find a header row in the table,
