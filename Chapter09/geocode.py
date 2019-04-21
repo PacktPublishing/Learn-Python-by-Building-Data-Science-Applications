@@ -1,5 +1,6 @@
 from csv import DictReader, DictWriter
 from time import sleep
+import argparse
 
 import requests
 from tqdm import tqdm
@@ -68,3 +69,24 @@ def geocode_bulk(data, column='address', verbose=False):
         print(f'{len(errors)}/{len(data)} rows failed')
 
     return result, errors
+
+def main(args):
+    data = read_csv(args.path_in)
+    result, errors = geocode_bulk(data, column=args.column, verbose=True)
+    write_csv(result, args.path_out)
+
+
+print(nominatim_geocode('13 Rue de la Chapelle, 70250 Ronchamp, France'))
+
+# if __name__ == '__main__':
+#     parser=argparse.ArgumentParser()
+#     parser.add_argument('--path_in', help='path to the input csv file')
+#     parser.add_argument('--path_out', help='path to the output csv file',
+#                         default='geocoded_data.csv')
+    
+#     parser.add_argument('--column', 
+#                         help='column with the address in the input csv file',
+#                         default='address')
+
+#     args=parser.parse_args()
+#     main(args)
