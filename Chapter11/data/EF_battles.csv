@@ -1,0 +1,536 @@
+,allies,allies,allies,allies,allies,allies,allies,allies,axis,axis,axis,axis,axis,axis,axis,axis,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics,old_metrics
+,killed,wounded,captured,tanks,airplane,guns,ships,submarines,killed,wounded,captured,tanks,airplane,guns,ships,submarines,Belligerents.allies,Belligerents.axis,Belligerents.third party,Casualties and losses.allies,Casualties and losses.axis,Casualties and losses.third party,Casualties and losses.total,Commanders and leaders.allies,Commanders and leaders.axis,Commanders and leaders.third party,Date,Location,Result,Strength.allies,Strength.axis,Strength.third party,Strength.total,Territorial,level,name,parent,time,url,Lattitude,Longitude,start,end
+0,15,55,15,0,0,0,40,0,50,200,50,0,0,0,150,0,Poland,Germany Danzig,,15 deadat least 40 woundedRemainder captured,50 deadat least 150 wounded,,,Henryk Sucharski Franciszek Dąbrowski,Friedrich-Georg Eberhardt Gustav Kleikamp Wilhelm Henningsen †,,1–7 September 1939,"Westerplatte, harbor of Free City of Danzig54°24′27″N 18°40′17″E﻿ / ﻿54.40750°N 18.67139°E﻿ / 54.40750; 18.67139Coordinates: 54°24′27″N 18°40′17″E﻿ / ﻿54.40750°N 18.67139°E﻿ / 54.40750; 18.67139",German victory,210–240 soldiers,"~3,400 soldiers and policemen1 pre-dreadnought2 torpedo boats60 dive bombers",,,,100,Battle of Westerplatte,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Westerplatte,54.4075,18.67139,1939-09-01,1939-09-01
+1,800,800,50,850,0,50,50,0,500,500,1,501,0,1,301,0,Germany,Poland,,"800 killed, missing, captured, or wounded50 tanks100-110 vehicles","500 killed, missing or wounded300 horsesseveral guns1 tankette",,,Georg-Hans Reinhardt   Friedrich Kirchner,Julian Filipowicz,,"September 1, 1939","Mokra, Kielce Voivodeship, Poland",Polish victory,,,,,,100,Battle of Mokra,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Mokra,,,1939-09-01,1939-09-01
+2,2800,4800,72,1872,0,72,3072,1000,1200,2700,0,1200,0,0,1500,0,Germany,Poland,,"1,800 killed3,000 wounded1,000 missing72 tanks destroyed","1,200 killed1,500 wounded",,,Georg von Küchler,Wilhelm Liszka-Lawicz   Emil Krukowicz-Przedrzymirski,,1–3 September 1939,"Near Mława, Warsaw Voivodeship, Poland",German victory,,,,,,100,Battle of Mlawa,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Mlawa,,,1939-09-01,1939-09-01
+3,506,1249,0,506,0,0,743,0,1600,2350,0,1600,0,0,750,0,Germany,Poland,,"506 killed 
+
+743 wounded","1600 killed
+750 wounded
+
+Unknown number captured",,,Günther von Kluge Heinz Guderian Adolf Strauss,Władysław Bortnowski Stanisław Grzmot-Skotnicki Józef Werobej Juliusz Drapella,,1–5 September 1939,"Near Tuchola Forest, Pomeranian Voivodeship, Poland",German victory,,,,,,100,Battle of Tuchola Forest,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Tuchola_Forest,,,1939-09-01,1939-09-01
+4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Poland,Germany,,3+ tanks,70+ tanks and AFVs,,,Stanisław Maczek Jan Wójcik,Eugen Beyer[1],,1–3 September 1939,"Jordanów, Kraków Voivodeship, Poland",Pyrrhic German victory,"5,000 soldiers  58 tanks and AFVs  16 field guns  armoured train No.51 ""Pierwszy Marszałek""[2]","3/109 heavy artillery[1]  50,000 soldiers  498 tanks and AFVs  128 field guns[2]",,,,100,Battle of Jordanów,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Jordan%C3%B3w,,,1939-09-01,1939-09-01
+5,650,1190,0,650,0,0,540,0,0,663,663,0,0,0,0,0,Germany,Poland,,650 killed540 wounded,663 casualties[1],,,Erich Hoepner,Ludwik Czyżewski,,2–6 September 1939,"Near Bełchatów, Poland",German victory,XVI Panzer Corps,2nd Legions' Infantry Regiment,,,,100,Battle of Borowa Góra,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Borowa_G%C3%B3ra,,,1939-09-01,1939-09-01
+6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Poland,,"500-4,000",600-700,,,Heinz Guderian   Ferdinand Schaal,Władysław Raginis †  Stanisław Brykalski †,,"September 7–10, 1939","Wizna, near Łomża, Poland",German victory,"42,200 infantry350 tanks 657 artillery pieces",350-720 infantry[1]6 76 mm guns42 MGs2 anti-tank rifles,,,,100,Battle of Wizna,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Wizna,,,1939-09-01,1939-09-01
+7,0,0,2,2,0,2,2,0,14,2,16,16,14,14,16,16,Poland,Germany,,2 tanks[1]:60,"17 Panzers, 2 self propelled guns, 14 armoured cars[1]:60",,,Edmund Karpow,Erich Hoepner,,4-6 September 1939,"Piotrków Trybunalski, Poland",Polish defensive victory: Polish forces are ordered to withdraw,,,,,,100,Battle of Piotrków Trybunalski,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Piotrk%C3%B3w_Trybunalski,,,1939-09-01,1939-09-01
+8,55,2,56,53,54,53,54,53,2,1,1,0,0,0,0,1,Germany,Poland,,"Luftwaffe: 46–53 aircraft  Heer: unknown  Kriegsmarine:  2 destroyers damaged,  1 pre-dreadnought lightly damaged",Unknown human losses1 destroyer sunk1 minelayer sunk,,,Friedrich-Georg Eberhardt,Józef Unrug Włodzimierz Steyer Adam Mohuczy,,9 September – 2 October 1939,"Hel Peninsula, Pomeranian Voivodeship, Poland",German victory,"38,000 infantry[Note 1]2 pre-dreadnoughts2 destroyers","2,80046 guns1 destroyer1 minelayer1 patrol boat",,,,100,Battle of Hel,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Hel,,,1939-09-01,1939-10-01
+9,8020,12100,12170,70,20,70,70,20,0,202000,170000,0,0,0,32000,0,Germany,Poland,,"8,000 dead[2]  4,000 captured  50 tanks  100 cars  20 artillery pieces","18,000[2]–20,000[1] dead32,000 wounded[2]  170,000 captured[2]",,,Gerd von Rundstedt[1]   Johannes Blaskowitz   Walther von Reichenau   Günther von Kluge   Wilhelm Ulex   Erich Hoepner,Tadeusz Kutrzeba[1]   Władysław Bortnowski   Edmund Knoll-Kownacki   Mikołaj Bołtuć   Roman Abraham   Leon Strzelecki,,9–19 September[1] 1939,"Near Kutno, Łódź Voivodeship, Poland52°14′00″N 19°22′00″E﻿ / ﻿52.23333°N 19.36667°E﻿ / 52.23333; 19.36667Coordinates: 52°14′00″N 19°22′00″E﻿ / ﻿52.23333°N 19.36667°E﻿ / 52.23333; 19.36667","German victory 
+
+Destruction of Armies Poznań and Pomorze","12 infantry divisions  5 armoured and motorized divisions  425,000 soldiers[1]","8 infantry divisions  2–4 cavalry brigades  225,000 soldiers[1]",,,,100,Battle of the Bzura,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_the_Bzura,52.23333,19.36667,1939-09-01,1939-09-01
+10,7500,20500,0,7500,0,0,13000,0,140000,140000,0,140000,0,0,0,0,Nazi Germany,Polish Republic,,"7,500 killed13,000 wounded","140,000 killed or captured[1]:78",,,Johannes Blaskowitz Georg von Küchler Werner von Fritsch † Walter Petzel,Juliusz Zulauf Juliusz Rómmel Marian Porwit Tadeusz Kutrzeba,,8-28 September 1939,"Warsaw, Poland52°13′48″N 21°00′39″E﻿ / ﻿52.23000°N 21.01083°E﻿ / 52.23000; 21.01083Coordinates: 52°13′48″N 21°00′39″E﻿ / ﻿52.23000°N 21.01083°E﻿ / 52.23000; 21.01083","Decisive German victory
+
+Nazi occupation of Warsaw until 1945.","175,000 soldiers","124,000 soldiers (excluding volunteers)",,,,100,Siege of Warsaw,German Invasion of Poland,,https://en.wikipedia.org/wiki/Siege_of_Warsaw_(1939),52.23,21.01083,1939-09-01,1939-09-01
+11,484,2011,633,1117,0,24,1551,609,0,0,0,0,0,0,0,0,Germany  Soviet Union,Poland,,"German 1st Mountain Division: 484 killed (including 116 from Gebirgsjäger-Regiment 99.)  918 wounded  608 sick
+ Soviet: 24th Armoured Brigade: 4 KIA and 8 WIA on 22 September
+
+Total: 488+ killed  926+ wounded  608+ sick",Unknown,,,Ferdinand Schörner  Filipp Golikov,Władysław Langner Franciszek Sikorski,,"September 12–22, 1939","Lwów, Lwów Voivodeship, Poland","German–Soviet victory
+
+Polish handed the city over to the Soviets","German:  1st Mountain Division, 2nd Mountain Division, part of 7th Infantry Division, part of 5th Panzer Division   Soviet:  6th Army",11 infantry battalions  5 batteries of artillery (mainly 75 mm guns)  2 armoured trains  1 cavalry unit  1 engineering platoon and a small number of soldiers who had retreated into the city from elsewhere,,,,100,Battle of Lwów,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Lw%C3%B3w_(1939),,,1939-09-01,1939-09-01
+12,2103,2103,1210,965,1174,1210,1210,1174,1570,1570,700,870,700,700,700,700,Germany,Poland,,"929 killed, 1174 injured and 36 tanks destroyed",870 killed and 700 injured,,,Leonard Wecker   Wilhelm List   Walther von Reichenau   Ewald von Kleist   Ernst Busch,"First Phase:   Antoni Szylling   Tadeusz Piskor
+
+Second Phase:   Stefan Dąb-Biernacki   Emil Krukowicz-Przedrzymirski   Władysław Anders   Jan Kruszewski",,"September 17–26, 1939","Near Tomaszów Lubelski, Poland50°27′00″N 23°25′00″E﻿ / ﻿50.45000°N 23.41667°E﻿ / 50.45000; 23.41667Coordinates: 50°27′00″N 23°25′00″E﻿ / ﻿50.45000°N 23.41667°E﻿ / 50.45000; 23.41667",German victory,3 infantry divisions  + 2 panzer divisions,First Phase:  4 infantry divions  1 cavarly divion and 1 mechanized divions,,,,100,Battle of Tomaszów Lubelski,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Tomasz%C3%B3w_Lubelski,50.45,23.41667,1939-09-01,1939-09-01
+13,0,0,0,0,0,0,0,0,100,0,0,0,0,0,0,100,Poland,Germany,,"Unknown, but heavy","Unknown, but heavy, 100 men captured",,,Bohdan Stachlewski   Tadeusz Gerlecki†,Rudolf Koch-Erpach  (POW),,23 September 1939,"Krasnobród, Lublin Voivodeship",Polish victory,Nowogrodek Cavalry Brigade  2nd Horse Artillery Division  2nd Horse Rifles Regiment  1st KOP Cavalry Regiment,8th Infantry Division  Heavy East Prussian cavalry,,,,100,Battle of Krasnobród,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Krasnobr%C3%B3d,,,1939-09-01,1939-09-01
+14,0,17300,17300,0,0,0,0,0,0,685,685,0,0,0,0,0,Poland,Germany,,"250–300 casualties17,000 captured[1]",300–500 casualties185 captured,,,Franciszek Kleeberg,Gustav Anton von Wietersheim,,2–5 October 1939,"Near Kock, Lublin Voivodeship, Poland",Polish tactical victoryGerman strategic victory,"Independent Operational Group Polesie (18,000)","XIV Motorised Corps (30,000)",,,,100,Battle of Kock,German Invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Kock_(1939),,,1939-10-01,1939-10-01
+16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soviet Union,Poland,,,,,Soviet counts: 13 killed  24 wounded  five BT tanks destroyed  one BA-10 armoured car destroyed  three other AFVs damaged,Mikhail Kovalyov   Pyotr Akhlyustin Semyon Zybin,Jarosław Okulicz-Kozaryn,,18–19 September 1939,"Wilno, Second Polish Republic (now Vilnius, Lithuania)54°40′N 25°19′E﻿ / ﻿54.667°N 25.317°E﻿ / 54.667; 25.317Coordinates: 54°40′N 25°19′E﻿ / ﻿54.667°N 25.317°E﻿ / 54.667; 25.317",Soviet victory,Two cavalry divisions  three armoured brigades,"10 infantry battalions  (6,500 men)  18-22 guns (including AA guns)  ~40 MGs",,,,100,Battle of Wilno,Soviet invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Wilno_(1939),54.667,25.317,1939-09-01,1939-09-01
+17,0,0,0,0,0,0,0,0,0,1543,1543,0,0,0,0,0,Soviet Union,Poland,,"Soviet counts:  57 KIA  159 WIA  23 AFVs 
+
+Polish counts:  800 KIA, MIA and wounded","Soviet counts:  644 KIA  1,543 captured",,,Ivan Boldin   Mikhail Petrov[1],Wacław Przeździecki   Józef Olszyna-Wilczyński   Edmund Heldut-Tarnasiewicz,,20 September 1939 – 24 September 1939(4 days),"Grodno, Poland",Soviet victory,Unknown number of tanks and infantry,"2,000-2,500 (September 20)  3,500-4,000 (September 21)  2 AA guns",,,,100,Battle of Grodno,Soviet invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Grodno_(1939),,,1939-09-01,1939-09-01
+18,584,2665,933,52,3,52,1836,3,350,350,350,0,0,0,0,0,Soviet Union,Poland,,"Soviet archives: 81 dead  184 wounded  7 tanks (5 T-26, 2 T-38)  2 tractors  3 anti-tank guns [1]  (Polish accounts:)  ~500 dead  1,600 wounded  300 captured [2]  Several guns  A few AFVs  Up to 40 tanks[citation needed]",~350 dead  900+ wounded  A few trucks[citation needed],,,Colonel Iwan Russijanow,Wilhelm Orlik-Rückemann,,28 September 1939,"Szack, Poland (now Ukraine)",Tactical Polish victory,52nd Rifle Division,"4,000 strong KOP group including artillery",,,,100,Battle of Szack,Soviet invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Szack,,,1939-09-01,1939-09-01
+19,80,182,4,84,0,4,106,0,200,667,0,200,0,0,467,0,Soviet Union,Poland,,80 killed  102 wounded  4 tanks destroyed,200 killed  467 wounded,,,Col. Vasily Sokolov,Wilhelm Orlik-Rueckemann,,"October 1, 1939","Wytyczno, near Włodawa, Poland",Soviet victory,"1,200 men  200 guns  70 tanks","2,000 men  13 guns",,,,100,Battle of Wytyczno,Soviet invasion of Poland,,https://en.wikipedia.org/wiki/Battle_of_Wytyczno,,,1939-10-01,1939-10-01
+21,750,1750,0,750,0,0,1000,0,27529,29600,2432,27832,29,332,1502,29,Finland,Soviet Union,,"750 killed or missing[1]1,000 wounded[1]","21,000–27,500 killed or missing[2]2,100 captured43 tanks captured71 field-guns captured29 anti-tank guns captured260 trucks captured1,170 horses captured",,,Hjalmar Siilasvuo,Ivan Dashichev [ru] Alexei Vinogradov,,7 December 1939-8 January  1940,"Suomussalmi, Finland",Finnish victory,"T3 regiments and separate battalions11,500","9th Army
+
+2 divisions
+1 tank brigade
+45,000–55,000",,,,100,Battle of Suomussalmi,Soviet invasion of Finland,,https://en.wikipedia.org/wiki/Battle_of_Suomussalmi,,,1939-12-01,1940-01-01
+22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Finland,Soviet Union,,"thousands (killed, wounded, missing)","tens of thousands (killed, wounded, missing)  large amounts of material (tanks, guns, aircraft, etc.)",,,Carl Gustaf Emil MannerheimHarald Öhquist,Semyon Timoshenko,,16–22 December 19391–15 February 1940,Summa Lahde Sector,"First battle in December: Finnish defensive victorySecond battle in February: Soviet victory, overrunning the Mannerheim Line",Third Division,7th Army13th Army,,,,100,Battle of Summa,Soviet invasion of Finland,,https://en.wikipedia.org/wiki/Battle_of_Summa,,,1939-12-01,1940-02-01
+23,402,402,0,402,0,0,0,0,12244,11301,1300,10001,0,0,0,2243,Finland,Soviet Union,,402 killed(according to Finnish estimates)[2],"1001 killed and 2243 missing  (according to Soviet estimates). 7,000–9,000 killed1,300 captured(according to Finnish estimates). [3]",,,Hjalmar Siilasvuo,Alexei Vinogradov,,1-7 January 1940,Eastern Finland,Finnish victory,"10,000","13,962–25 000[1](Officially)",,,,100,Battle of Raate Road,Soviet invasion of Finland,,https://en.wikipedia.org/wiki/Battle_of_Raate_Road,,,1940-01-01,1940-01-01
+24,1500,1500,1500,0,0,0,0,0,8000,8000,8000,0,0,0,0,0,Finland,Soviet Union,,"1,500 dead or wounded (estimate)",8000 dead or wounded,,,Woldemar HägglundDivision:Lauri Tiainen(Until 31 January)Antero Svensson(From 1 February),Ivan Khabarov(Until 13 December)Grigori Shtern(From 13 December)Division: (December)M.S. YevstigneyevCorps: (February–March)Dmitri KozlovV.G. Vorontsov,,"December 7, 1939 to March 13, 1940","Kollaa river, Finland",Finnish victory,1 division and some small units[citation needed],"4 divisions, 1 tank brigade[citation needed]",,,,100,Battle of Kollaa,Soviet invasion of Finland,,https://en.wikipedia.org/wiki/Battle_of_Kollaa,,,1939-12-01,1940-03-01
+25,89,240,105,0,0,0,135,0,181,554,253,0,0,0,301,0,Finland,Soviet Union,,"89 dead,135 wounded,16 captured","181 dead,301 wounded,72 captured",,,Captain Antti Pennanen,Kirill Meretskov Valerian Frolov,,30 November 1939 to 12 March 1940,"Petsamo, Finland",Soviet advance,Three companies,Two divisions,,,,100,Battle of Petsamo,Soviet invasion of Finland,,https://en.wikipedia.org/wiki/Battle_of_Petsamo_(1939),,,1939-11-01,1940-03-01
+27,429,1097,429,0,0,0,668,0,2000,8800,8800,0,0,0,0,0,Germany,Soviet Union,,"429 dead, 668 wounded[4]","more than 2,000 dead[5]about 6,800 captured[6]",,,Fritz Schlieper,Pyotr Gavrilov (POW) Ivan Zubachyov (POW) Andrej Kižavataŭ † Yefim Fomin (23–26 June) [1][2],,22–29 June 1941,"Brest, Belarusian SSR, Soviet Union (nominally part of Poland until 1945, from 1945 part of the Soviet Union)",German victory,"about 17,000, 2 Panzer Divisions","over 9,000, 2 T-26 Cavalry Tanks, BA-20 Bobik[3]",,,,100,Defense of Brest Fortress,Axis invasion of the Soviet Union,June 1941,https://en.wikipedia.org/wiki/Defense_of_Brest_Fortress,,,1941-06-01,1941-06-01
+28,12433,0,377,377,276,377,377,12433,760471,417790,6468,347541,1669,15895,83185,419398,Germany,Soviet Union,,"(Incomplete)12,157 men[2]101 tanks destroyed[3]276 aircraft destroyed","417,729 men
+
+341,073 killed or captured[4][1][5]
+76,717 wounded[1][4]
+4,799 tanks destroyed[1]9,427 guns and mortars lost[4][1]1,177–1,669 aircraft destroyed[1][6]",,,"Fedor von Bock
+
+Hans-Jürgen von Arnim",Dmitry Pavlov Vladimir Klimovskikh Ivan Boldin,,22 June – 9 July 1941,"Byelorussian Soviet Socialist Republic, Soviet Union",German victory,"750,000 men1,936 tanks","671,165 men[1]4,522 tanks14,171 guns and mortars[1]",,,,100,Battle of Białystok-Minsk,Axis invasion of the Soviet Union,June 1941,https://en.wikipedia.org/wiki/Battle_of_Bia%C5%82ystok-Minsk,,,1941-06-01,1941-07-01
+29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,,,,22 June 1941,"Petsamo, Finland",German victory,,,,"27,500 men[1]",,100,Operation Rentier,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Operation_Rentier,,,1941-06-01,1941-06-01
+30,0,0,0,0,0,0,0,0,76192,176972,91999,78715,990,3513,16797,990,Germany,Soviet Union,,unknown,"75,202 killed13,284 wounded2,523 tanks & SPGs destroyed[2]990 aircraft destroyed[2]Total:88,486 casualties[1]",,,Wilhelm Ritter von Leeb,Fyodor Isodorovich Kuznetsov,,22 June – 9 July 1941,"Baltic Countries, USSR","German victory
+
+Successful German Offensive","655,0001,389 tanks7,673 artillery pieces1,070 aircraft","498,000[1]1,393 tanks5,573 artillery pieces1,210 aircraft",,,,100,Baltic Operation,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Baltic_Operation,,,1941-06-01,1941-07-01
+31,0,0,0,0,0,0,0,0,0,0,704,704,0,704,704,0,Germany,Soviet Union,,Unknown,704 tanks(crewmen either killed or captured)[3],,,Georg-Hans Reinhardt,"Fyodor Kuznetsov
+Alexey Kurkin
+Yegor Solyankin †",,23–27 June 1941,"Raseiniai, Lithuania",German victory,235–245 tanks[1][2][f],749 tanks[3],,,,100,Battle of Raseiniai,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_Raseiniai,,,1941-06-01,1941-06-01
+32,0,0,208,208,0,208,208,0,0,0,808,808,0,808,808,0,Germany,Soviet Union,,Only against 8th Mech. Corps: ~ 200 tanks lost[3],Heavy: Forces rendered non-operational  8th Mech. Corps: ~ 800 tanks lost[3],,,Paul Ludwig Ewald von Kleist   Hyazinth Graf Strachwitz,Mikhail Kirponos   Maksim Purkayev   Ivan Muzichenko   Mikhail Potapov,,23–30 June 1941,"Brody, Ukrainian SSR, Soviet Union",German victory,750 tanks[1][2],"3,500 tanks[1]",,,,100,Battle of Brody (1941),Axis invasion of the Soviet Union,June 1941,https://en.wikipedia.org/wiki/Battle_of_Brody_(1941),,,1941-06-01,1941-06-01
+33,86400,308300,398900,309000,0,309000,527400,0,305000,944000,1313000,944000,0,944000,1519000,0,"Finland
+
+Estonian and Swedish volunteers
+ Germany
+
+
+ Italy[Note 1]","Soviet Union
+
+ United Kingdom[Note 2]",,"Finnish
+63,200 dead or missing[12][13]
+158,000 wounded[12]
+2,370–3,500 captured[14]
+225,000 total casualties
+Not including civilian casualties
+
+
+German
+23,200 dead or missing
+60,400 wounded
+84,000 total casualties[13]
+Not including civilian casualties","Soviet
+250,000–305,000 dead or missing[10][12][13]
+575,000 wounded[10][12]
+64,000 captured[15]
+890,000–944,000 total casualties
+Not including civilian casualties, such as Siege of Leningrad",,,"C.G.E. Mannerheim
+ Erik Heinrichs
+ Aksel Airo
+ Lennart Oesch
+ Nikolaus von Falkenhorst
+ Eduard Dietl
+ Lothar Rendulic","Markian Popov
+ Trifon Shevaldin
+ Leonid Govorov
+ Mikhail Hozin
+ Valerian A. Frolov
+ Kirill Meretskov",,"25 June 1941 – 19 September 1944 (3 years, 2 months, 3 weeks and 4 days)","Finland, Karelia, and Murmansk area","Soviet victory[5][6][7]
+
+Moscow Armistice","450,000–700,000 Finns[Note 3]67,000–214,000 Germans[Note 4]2,000 Estonian volunteers1,000 Swedish volunteers","450,000–650,000 Soviets[Note 5]",,,Concession of Petsamo and lease of Porkkala Peninsula to the Soviet Union,100,Continuation War,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Continuation_War,,,1941-06-01,1944-09-01
+34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany Finland,Soviet Union United Kingdom[note],,"21,501 Germans5,000 Finns[2]",unknown,,,Nikolaus von Falkenhorst Eduard Dietl Hans Feige Hjalmar Siilasvuo,Markian Popov  Valerian Frolov[note] Roman Panin,,29 June – 17 November 1941,"Arctic, Lapland, Northern Russia68°58′N 33°05′E﻿ / ﻿68.967°N 33.083°E﻿ / 68.967; 33.083Coordinates: 68°58′N 33°05′E﻿ / ﻿68.967°N 33.083°E﻿ / 68.967; 33.083",Soviet victory,,,,,,100,Operation Silver Fox,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Operation_Silver_Fox,68.967,33.083,1941-06-01,1941-11-01
+35,0,10300,10300,0,0,0,10300,0,0,0,0,0,0,0,0,0,Germany Finland,Soviet Union,,"10,300 overall[4]",Unknown,,,Eduard Dietl,Valerian A. Frolov,,29 June – 21 September 1941,"Petsamo, Litsa River, Rybachy Peninsula",Soviet victory,"2nd Mountain Division3rd Mountain Division2 additional SS regiments[1]Finnish 14th Infantry Regiment[2]Finnish Ivalo Border Guard Battalion27,500 men (initially)[3]",14th Rifle Division52nd Rifle DivisionPolyarny Division[note]Soviet Northern Fleet,,,,100,Operation Platinum Fox,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Operation_Platinum_Fox,,,1941-06-01,1941-09-01
+36,9463,0,0,0,0,0,0,9463,0,0,0,0,0,0,0,0,Germany Finland,Soviet Union,,"XXXVI Corps: 9,463 men[2] III Corps: unknown[note]",Heavy casualties,,,Hans Feige Hjalmar Siilasvuo,Markian Popov   Valerian A. Frolov Roman Panin[1],,1 July 1941 – 17 November 1941,"Salla, Kestenga, Alakurtti, Verman River",Stalemate,"XXXVI Corps
+169th Infantry Division
+SS-Division Nord (mot.)
+Finnish 6th Division
+Panzer-Abteilung 211
+ III Corps
+Finnish 3rd Division
+Panzer-Abteilung 40","14th Army
+104th Rifle Division
+122nd Rifle Division
+1st Tank Division
+88th Rifle Division (reinforcements)
+Grivnik brigade[1](reinforcements)
+1st Polar Rifle Division[note]
+ 7th Army
+54th Rifle Division",,,,100,Operation Arctic Fox,Axis invasion of the Soviet Union,July–November 1941,https://en.wikipedia.org/wiki/Operation_Arctic_Fox,,,1941-07-01,1941-11-01
+37,170991,129977,214,29864,0,214,100541,141341,946994,759947,304176,190320,903,4176,277979,760850,Germany,Soviet Union,,"135,659 men (21 July – 10 September)[6]
+
+29,650 killed
+100,327 wounded
+5,682 missing
+214 tanks destroyed[4]","759,947 men[5]
+
+186,144 killed
+273,803 wounded
+300,000 captured[7][8]
+1,348–3,273 tanks and SPGs destroyed[9][a]903 aircraft destroyed[10]",,,Fedor von Bock Maximilian von Weichs Hermann Hoth Heinz Guderian,Semyon TimoshenkoFyodor Kuznetsov Andrei Yeremenko Ivan Gorbachyov †,,"8 July – 31 July 1941(German historiography)[1]:267
+10 July – 10 September 1941 (Soviet historiography)[2][1]:267","Smolensk (Russian SFSR) and surroundings, Soviet UnionCoordinates: 54°46′58″N 32°02′43″E﻿ / ﻿54.78278°N 32.04528°E﻿ / 54.78278; 32.04528",German victory,"430,000 men1,000–1,780 tanks[3][4]  1,500 aircraft[3]","10 July:581,600 men[5]  1,545 tanks[b]",,,,100,Battle of Smolensk (1941),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1941),54.78278,32.04528,1941-07-01,1941-09-01
+38,0,0,0,0,0,0,0,0,0,0,317,317,0,317,317,0,Germany Romania Hungary Slovakia,Soviet Union,,"Total: 20,853[a]Killed: 4,610 Wounded: 15,458 Captured or Missing: 785","Total: 203,000 Killed or wounded: 100,000 Captured: 103,000 Captured or Destroyed: 317 tanks",,,Field Marshal Gerd von Rundstedt Colonel General Carl-Heinrich von Stülpnagel,Marshal Semyon Budyonny Colonel General Mikhail Kirponos General Ivan Tyulenev,,15 July–8 August 1941,"Uman, Western Ukraine",Axis victory,"400,000 600 tanks","300,000 317 tanks and 858 guns",,,,100,Battle of Uman,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_Uman,,,1941-07-01,1941-08-01
+39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Pripyat swamps (punitive operation),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Pripyat_swamps_(punitive_operation),,,,
+40,29310,173619,110403,129,110,129,156019,11581,16732,142537,118000,153,153,153,126111,153,Romania Germany Italy (air support),Soviet Union,,"92,545 overall17,729 dead63,345 wounded11,471 missing19 tanks90 artillery pieces20 aircraft[4]","Low estimate: 41,268 overall[3]16,578 dead/missing24,690 wounded1 armored train151 aircraftHigh estimate: 60,000 overall[5]Naval losses to Romanian forces:1 destroyer possibly damaged1 armed merchantman captured",,,Ion Antonescu Alexandru Ioaniţiu † Nicolae Ciupercă Iosif Iacobici Ioan Glogojeanu †[1] Nicolae Deleanu C. D. Nicolescu Horia Macellariu Erich von Manstein,Georgiy Sofronov Ivan Petrov(Late) Gavriil Zhukov Filipp Oktyabrskiy,,"8 August – 16 October 1941 (2 months, and 8 days)","Odessa region, Ukrainian SSR, Soviet Union","Axis victory, subsequent 1941 Odessa massacre","160,000 men (initially)[2]340,223 men (total)","34,500 men (initial)[3]240 artillery pieces120,000+ men (total)",,,,100,Siege of Odessa (1941),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Siege_of_Odessa_(1941),,,1941-08-01,1941-10-01
+41,45654,0,0,0,0,0,0,45654,1317191,700544,754,617058,343,29173,84994,700887,Germany,Soviet Union,,"Total: 45,654 men[2]","700,544 men[1][contradictory]
+
+616,304 killed or captured
+84,240 wounded and sick
+411 tanks and SPGs destroyed[3]343 aircraft destroyed[3]28,419 guns and mortars lost[2]",,,Fedor von Bock Gerd von Rundstedt Heinz Guderian,Semyon Budyonny(Until 13 September) Semyon Timoshenko Mikhail Kirponos †,,23 August – 26 September 1941,"East and South of Kiev, Ukrainian SSR, Soviet Union","Decisive German victory
+
+Encirclement of Soviet troops
+Soviet bombings of Kiev as part of scorched earth policy
+Massacre of tens of thousands of Kiev city residents at Babi Yar","Army Group South: 500,000Army Group Centre: unknown","627,000[1]",,,German occupation of Kiev,100,Battle of Kiev (1941),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_Kiev_(1941),,,1941-08-01,1941-09-01
+42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Bombing of Tallinn in World War II,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Bombing_of_Tallinn_in_World_War_II,,,,
+43,0,0,0,0,0,0,0,0,62,22,6,6,28,28,22,40,Finland Germany,Soviet Union,,Unknown,"12,000+ dead (civilian and military)28 large transports and auxiliary ships16 warships[1]6 small transports34 merchant vessels sunk",,,Unknown,Admiral Vladimir TributzMarshal Kliment Voroshilov,,27–31 August 1941,Gulf of Finland,Finnish–German victory,Numerous minefieldsNumerous bomber aircraftCoastal batteriesNumerous torpedo boats,"1 armed cruiser30,000",,,,100,Evacuation of Tallinn (1941),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Evacuation_of_Tallinn_(1941),,,1941-08-01,1941-08-01
+44,0,0,8,8,0,8,8,0,10701,63706,31853,10701,0,0,53005,0,Germany,Soviet Union,,"23,000 (XX Army Corps for the period from August 8 to Sept 8)[2]","10,701 killed or missing21,152 wounded31,853 overall[1]",,,Fedor von Bock,Georgy Zhukov Konstantin Rakutin †,,"August 30 – September 8, 1941","Yelnya, Soviet Union54°34′N 33°10′E﻿ / ﻿54.567°N 33.167°E﻿ / 54.567; 33.167Coordinates: 54°34′N 33°10′E﻿ / ﻿54.567°N 33.167°E﻿ / 54.567; 33.167",Soviet tactical victory,,"103,200[1]",,,,100,Yelnya Offensive,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Yelnya_Offensive,54.567,33.167,1941-09-01,1941-09-01
+45,15143,12155,0,2456,0,0,9699,12687,106332,0,212,212,0,984,212,106332,Germany Romania,Soviet Union,,"12,421 men (21 September–10 October)[1]
+
+2,456 killed
+9,699 wounded
+266 missing","106,332 men captured[2]212 tanks destroyed or captured[2]772 guns captured[2]",,,Gerd von Rundstedt Erich von Manstein Ewald von Kleist,Semyon Timoshenko Dmitry Ryabyshev Yakov Cherevichenko,,26 September 1941 – 11 October 1941(2 weeks and 1 day),Sea of Azov,Axis victory,,,,,,100,Battle of the Sea of Azov,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_the_Sea_of_Azov,,,1941-09-01,1941-10-01
+46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Wotan,Axis invasion of the Soviet Union,,https://en.wikipedia.org/w/index.php?title=Operation_Wotan&action=edit&redlink=1,,,,
+47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Nevsky Pyatachok,Siege of Leningrad (1941–1944),,https://en.wikipedia.org/wiki/Nevsky_Pyatachok,,,,
+48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Nordlicht (1942),Siege of Leningrad (1941–1944),,https://en.wikipedia.org/wiki/Operation_Nordlicht_(1942),,,,
+49,5893,5893,5893,0,0,0,0,0,40085,125674,52085,0,0,0,73589,0,Germany,Soviet Union,,"(Only between August 28–September 30)5,893 dead, Total 26,000[1][2]","40,085 dead and missing(including 12,000 captured)73,589 wounded and sick Total 113,674[3]",,,Erich von Manstein Georg von Küchler,Kirill Meretskov Leonid Govorov,,"August 19 – October 10, 1942","Southern shore of Lake Ladoga, near present-day Sinyavino and Saint Petersburg, Russia","Indecisive. Soviet offensive defeated, German offensive cancelled.",18th ArmyReinforcements:11th Army,"2nd Shock Army8th ArmyElements of Leningrad FrontTotal 190,000 men",,,,100,Sinyavino Offensive (1942),Siege of Leningrad (1941–1944),,https://en.wikipedia.org/wiki/Sinyavino_Offensive_(1942),,,1942-10-01,1942-10-01
+50,12000,44570,0,12000,0,0,32570,0,33940,105082,0,33940,0,0,71142,0,Germany,Soviet Union,,"12,000 killed32,570 wounded[3]","33,940 killed71,142 wounded[4]",,,Georg Lindemann,Kirill MeretskovLeonid Govorov,,12–30 January 1943 (1943-01-12 – 1943-01-30),South of Lake Ladoga,Soviet victory,26 divisions[1]700 artillery50 tanks[2],"20 divisions15 brigades4,600 artillery500 tanks900 aircraft[2]",,,,100,Operation Iskra,Siege of Leningrad (1941–1944),,https://en.wikipedia.org/wiki/Operation_Iskra,,,1943-01-01,1943-01-01
+52,0,0,0,0,0,0,0,0,80000,130000,50000,80000,0,0,0,0,Germany,Soviet Union,,unknown,"80,000 killed or missing50,000 captured",,,Fedor von Bock  Heinz Guderian  Maximilian von Weichs,Andrey Yeryomenko Semyon Timoshenko Georgy Zhukov,,30 September–21 October 1941,"Bryansk, Soviet Union",German victory,unknown,Unknown,,,,100,Battle of Bryansk (1941),Axis invasion of the Soviet Union,October 1941,https://en.wikipedia.org/wiki/Battle_of_Bryansk_(1941),,,1941-09-01,1941-10-01
+53,30000,30000,30000,0,0,0,0,0,0,65001,65001,0,0,672,0,0,Germany Romania,Soviet Union,,"30,000 dead, wounded or missing","65,000 captured212 Vehicles destroyed672 guns1 cargo ship sunk",,,Erich von Manstein Wolfram Freiherr von Richthofen Gheorghe Avramescu Constantin Costăchescu,Gordey Levchenko Fyodor Kuznetsov Ivan Yefimovich Petrov,,18 October–16 November 1941,"Crimea, Soviet Union",Axis victory,,,,,,100,Battle of the Crimea (1941),Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Crimea_Campaign,,,1941-10-01,1941-11-01
+54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,unknown,"unknown, but[2]probably higher",,,Erwin Vierow Anton Dostler,Viktor Tsyganov,,20–24 October 1941,"Kharkov, Ukrainian SSR, Soviet Union",German victory,"Two divisions1 Sturmgeschütz-Abteilung10,000–30,000 men (est.)12 StuG III",One division[1],,,,100,First Battle of Kharkov,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/First_Battle_of_Kharkov,,,1941-10-01,1941-10-01
+55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Günther von Kluge,Dmitry Lelyushenko,,13 October 1941 – 18 January 1942,"Borodino, Russian SFSR55°30′31″N 35°49′16″E﻿ / ﻿55.50861°N 35.82111°E﻿ / 55.50861; 35.82111Coordinates: 55°30′31″N 35°49′16″E﻿ / ﻿55.50861°N 35.82111°E﻿ / 55.50861; 35.82111",German victory in OctoberSoviet victory in January,2nd SS Division Das Reich10th Panzer Division18th Panzer Brigade19th Panzer Brigade,32nd Rifle Division82nd Rifle Division36th Motorcycle Regiment509th Anti-Tank Regiment,,,,100,Battle at Borodino Field,Axis invasion of the Soviet Union,October 1941 – January 1942,https://en.wikipedia.org/wiki/Battle_at_Borodino_Field,55.50861,35.82111,1941-10-01,1942-01-01
+56,41481,13983,61,2872,49,61,11233,38670,765653,218501,675,195410,417,1808,24441,570918,Germany Romania,Soviet Union,,"38,362
+
+
+Breakdown
+Kerch losses:
+
+21 December – 31 December:6,654 men[7]
+
+1,108 killed
+5,287 wounded
+259 missing
+
+January 1942 – April 1942:24,120 men[8]
+
+
+8 May 1942 – 19 May 1942:7,588 men[9]
+
+1,703 killed or captured
+5,885 wounded
+8–12 tanks destroyed[10][9]3 assault guns destroyed[10]9 artillery pieces destroyed[10]37 aircraft destroyed[11]","570,601
+
+
+Breakdown
+Kerch losses:
+
+26 December – 2 January:41,935 men[12]
+
+32,453 killed or captured
+9,482 wounded or sick
+
+1 January 1942 – 30 April 1942:352,000 men[13][8]
+
+
+8 May 1942 – 19 May 1942:176,566 men[5]
+
+162,282 killed or captured
+14,284 wounded or sick
+258 tanks destroyed1,133 guns lost417 aircraft destroyed (315 from Air Force of the Crimean Front)[11]",,,Erich von MansteinWolfram von Richthofen,Dimitri Kozlov Lev Mekhlis Filipp Oktyabrsky,,"26 December 1941 – 19 May 1942(4 months, 3 weeks and 2 days)","Crimean Peninsula, Russian SFSR, Soviet Union",Axis victory,"8 May 1942:232,549 men (2 May)[1]200 tanks[2]57 assault guns[3]800+ aircraft[4]95,000 men (2 May)[1]","8 May 1942:249,800 men[5]238 tanks[6]404 aircraft (Air Force of the Crimean Front)[4]",,,,100,Battle of the Kerch Peninsula,Siege of Sevastopol (1941–1942),,https://en.wikipedia.org/wiki/Battle_of_the_Kerch_Peninsula,,,1941-12-01,1942-05-01
+58,0,0,0,0,0,0,0,0,5236,4129,0,733,0,0,3396,4503,Soviet Union,Germany Romania Slovak Republic,,"33,000 (17 November–2 December)[1]","4,316 men (11 November–30 November)[2]
+
+733 killed
+3,396 wounded
+187 missing",,,Yakov Cherevichenko,Gerd von RundstedtWalther von ReichenauEwald von Kleist,,17 November 1941 – 2 December 1941(2 weeks and 1 day),"Rostov-on-Don region, USSR",Soviet victory,Southern Front,"Army Group South
+
+1st Panzer Army",,,,100,Battle of Rostov,Axis invasion of the Soviet Union,,https://en.wikipedia.org/wiki/Battle_of_Rostov_(1941),,,1941-11-01,1941-12-01
+59,0,0,1941,1941,0,1941,1941,0,653924,1029234,3882,657806,0,3882,379192,0,Germany,Soviet Union,,"German strategic offensive: (1 October 1941 to 10 January 1942)
+October: 62,870
+November: 46,374
+December: 41,819
+January: 23.131
+
+Total: 174,194 KIA, WIA, MIA (see §7)[11]","Moscow Defense:[12] (30 September 1941 to 5 November 1942)
+514,338 killed or missing
+143,941 wounded
+
+Moscow Offensive:[12] (5 December 1941 to 7 January 1942)
+139,586 killed or missing
+231,369 wounded
+
+Total: 1,029,234(see § Casualties)",,,"Adolf Hitler
+Fedor von Bock
+Heinz Guderian
+Erich Hoepner","Joseph Stalin
+Georgy Zhukov
+Aleksandr Vasilevsky
+Ivan Konev",,2 October 1941 – 7 January 1942(3 months and 5 days),"Moscow Oblast, Russian SFSR, USSR","Strategic Soviet victory 
+
+German operational and tactical failure
+Eventual failure of Operation Barbarossa","As of 1 October 1941:
+1,183,693–1,929,406 men[1][2][3][4]
+1,000–2,470 tanks and assault guns[5][6]
+14,000 guns
+Initial aircraft: 549 serviceable;[7][8][9] at time of counter offensive: 599[10]","As of 1 October 1941:
+1,250,000–1,400,000 men
+3,232 tanks
+7,600 guns
+Initial aircraft: 936 (545 serviceable);[7] at time of counteroffensive: 1,376[10]",,,,100,Battle of Moscow,Axis invasion of the Soviet Union,[1],https://en.wikipedia.org/wiki/Battle_of_Moscow,,,1941-10-01,1942-01-01
+61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Büffel,Battles of Rzhev,,https://en.wikipedia.org/wiki/Operation_B%C3%BCffel,,,,
+63,0,12000,12000,0,0,0,12000,0,10400,58410,29200,10400,0,0,48010,0,Germany,Soviet Union,,"Soviet estimate:12,000 overall[1]","10,400 killed or missing18,810 wounded29,200 overall[2]",,,Colonel General Ernst Busch,General Pavel Kurochkin,,9 January – 6 February 1942,Northwestern Russia,Soviet victory,Unknown,"122,100",,,,100,Toropets-Kholm Operation,Soviet Winter counter-offensive,,https://en.wikipedia.org/wiki/Toropets-Kholm_Operation,,,1942-01-01,1942-02-01
+64,14781,51777,265,12042,265,265,40265,3004,88908,245511,0,88908,0,0,156603,0,Germany,Soviet Union,,"11,777 killed40,000 wounded2,739 missing265 aircraft destroyedTotal:55,000[4]","88,908 killed & missing156,603 woundedTotal:245,500[5]",,,Walter von Brockdorff-Ahlefeldt Walther von Seydlitz-Kurzbach,Pavel Kurochkin,,8 February – 20 May 1942,"Demyansk, Russian SSR, Soviet Union",German defensive victory[1],"100,000 (initially)[2][3]31,000 (reinforcements)","400,000 (initially)",,,,100,Demyansk Pocket,Soviet Winter counter-offensive,,https://en.wikipedia.org/wiki/Demyansk_Pocket,,,1942-02-01,1942-05-01
+65,30159,0,267,267,159,267,267,30159,451968,277190,1792,172750,542,3878,165024,281010,Germany Romania Hungary Italy Croatia Slovakia,Soviet Union,,"~20,000–30,000 men[8][9][10][3]108 tanks destroyed[3]49 aircraft destroyed[11] 12 airmen killed[11]98 airmen missing[11]","277,190 men
+
+170,958 killed, missing or captured
+106,232 wounded[4][9]
+1,250 tanks destroyed[9]1,648–2,086 guns and howitzers lost[3]3,278 mortars lost[3]542 aircraft destroyed[11]57,000 horses[3]",,,Fedor von Bock Ewald von Kleist,Semyon Timoshenko Ivan Bagramyan,,12 May 1942 – 28 May 1942(2 weeks and 2 days),"Izium/Barvenkovo area, Kharkov Oblast, Ukrainian SSR, Soviet Union",Axis victory,"350,000 men447 tanks[1]40 assault guns[2]27 tank destroyers[1]591 aircraft[3]","12 May:765,300 men[4]1,176 tanks300 self-propelled guns[5]1,154 guns and howitzers[6]1,700 mortars[6]926 aircraft[7]",,,,100,Second Battle of Kharkov,Soviet Winter counter-offensive,,https://en.wikipedia.org/wiki/Second_Battle_of_Kharkov,,,1942-05-01,1942-05-01
+67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Kremlin,Eastern Front,,https://en.wikipedia.org/wiki/Operation_Kremlin,,,,
+68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Braunschweig,Case Blue,July–November 1942,https://en.wikipedia.org/wiki/Operation_Braunschweig,,,,
+69,0,94500,94500,0,0,0,0,0,568347290522,568347568347,80000,568347290522,0,0,197825,0,Germany Hungary,Soviet Union,,"94,500 casualties including 19,000 KIA and MIA[1]","568,347290,522 killed and 80,000 captured[1]197,825 wounded[2]",,,Hermann Hoth Gusztáv Vitéz Jány,Filipp Golikov,,28 June – 24 July 1942,"Voronezh, Soviet Union",Axis victory,"2,500,000","800,000",,,,100,Battle of Voronezh (1942),Case Blue,,https://en.wikipedia.org/wiki/Battle_of_Voronezh_(1942),,,1942-06-01,1942-07-01
+70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Malaya Zemlya,Battle of the Caucasus,,https://en.wikipedia.org/wiki/Malaya_Zemlya,,,,
+72,1644,0,4810,4810,1644,16572,4810,1644,1611129,1129619,7110,485851,2769,22838,658138,1132538,Germany Romania Italy Hungary Croatia,Soviet Union,,"647,300–868,374 Germany+300,000[8][9][10]–400,000[11] Italy114,000[12]–114,520[13] Romania109,000[12]–158,854[13] Hungary105,000[12]–143,000[13]Hiwi 19,300–52,000[14]
+900 aircraft destroyed1,500 tanks destroyed (100 Romanian)6,000 guns destroyed744 aircraft; 1,666 tanks; 5,762 guns captured
+See casualties section.","1,129,619 men478,741 killed or missing650,878 wounded or sick[15]
+2,769 aircraft4,341 tanks (~150 by Romanians) (25-30% were total write-offs.[16])15,728 guns
+See casualties section.",,,Adolf Hitler Friedrich Paulus  Walter Heitz  Erich von Manstein W.F. von Richthofen Petre Dumitrescu C. Constantinescu Italo Gariboldi Gusztáv Jány,Joseph Stalin Georgy Zhukov Nikolay Voronov A.M. Vasilevsky Andrey Yeryomenko K.K. Rokossovsky Nikolai Vatutin Vasily Chuikov,,"23 August 1942 – 2 February 1943[Note 1](5 months, 1 week and 3 days)","Stalingrad, Russian SFSR, Soviet Union48°42′N 44°31′E﻿ / ﻿48.700°N 44.517°E﻿ / 48.700; 44.517Coordinates: 48°42′N 44°31′E﻿ / ﻿48.700°N 44.517°E﻿ / 48.700; 44.517","Soviet victory[1]
+
+Destruction of the German 6th Army","Initial:270,000 personnel3,000 artillery pieces500 tanks600 aircraft, 1,600 by mid-September (Luftflotte 4)[Note 5][2]
+At the time of the Soviet counter-offensive:c. 1,040,000 men[3][4]400,000+ Germans220,000 Italians200,000 Hungarians143,296 Romanians40,000 Hiwi10,250 artillery pieces500 tanks (140 Romanian)732 (402 operational) aircraft[5]:225[6]:87","Initial:187,000 personnel2,200 artillery pieces400 tanks300 aircraft[2]:72
+At the time of the Soviet counteroffensive:1,143,000 men[7]13,451 artillery pieces894 tanks[7]1,115[5]:224 aircraft",,,"Expulsion of the Axis from the Caucasus, reversing their gains from the 1942 Summer Campaign",100,Battle of Stalingrad,Case Blue,[2],https://en.wikipedia.org/wiki/Battle_of_Stalingrad,48.7,44.517,1942-08-01,1943-02-01
+74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soviet Union,Germany Italy Romania Hungary,,"161,000","300,000+",,,Joseph Stalin Semyon Timoshenko   Konstantin Rokossovsky Aleksandr Vasilevsky Nikolai Vatutin,Adolf Hitler Friedrich Paulus Petre Dumitrescu,,19–23 November 1942,Near Stalingrad (now Volgograd)48°42′N 44°31′E﻿ / ﻿48.700°N 44.517°E﻿ / 48.700; 44.517Coordinates: 48°42′N 44°31′E﻿ / ﻿48.700°N 44.517°E﻿ / 48.700; 44.517,Decisive Soviet victory Encirclement of Axis forces,"1,113,500 personnel (including reserve)[1]  894 tanks[1] 13,451 artillery pieces[1]  1,500 aircraft[2]
+
+and 30,000+ Cossack Cavalry forces.","German:280,000+ personnel (6th Army and 4th Panzer Army)unknown number of artillery pieces 732 aircraft (402 serviceable)Italian:220,000 personnelunknown number of artillery pieces or aircraft[3]Romanian:143,296 personnel 827 artillery pieces 134 tanks unknown number of aircraft[3]Hungarian:  200,000 personnelunknown number of artillery pieces or tanks[4]
+
+Total: 1,040,000 men",,,,100,Operation Uranus,Eastern Front,November 1942,https://en.wikipedia.org/wiki/Operation_Uranus,48.7,44.517,1942-11-01,1942-11-01
+75,170373,550674,217274,246901,70373,71973,452274,215674,0,40000,40000,0,0,0,0,0,Soviet Union,Germany,,"Isayev:70,373 irrecoverable145,301 sanitary[2]Glantz:100,000 killed 235,000 wounded1,600 tanks[3]","Grossmann: 40,000 casualties[4]",,,Georgy Zhukov Ivan Konev Maksim Purkayev,Walter Model  Günther von Kluge,,25 November – 20 December 1942,"Rzhev and Velikie Luki salients, Russian SFSR",German victory Soviet operational failure,"702,923 personnel,1,718 tanks[1]","3 combined corps (with 13 infantry divisions and 2 paratrooper divisions)2 panzer corps (5 panzer divisions, 3 motorized divisions)1,615 tanks[1]Total forces: ~ 350,000 troops.",,,,100,Operation Mars,Eastern Front,November – December 1942,https://en.wikipedia.org/wiki/Operation_Mars,,,1942-11-01,1942-12-01
+76,300,0,384,384,300,490,384,300,0,0,190,190,0,190,190,0,Germany Romania[1] Italy[2],Soviet Union,,"Soviet claims for 12,000 KIA,5,000 POW,unknown WIA,84 tanks,106 guns,300 aircraft destroyed",Unknown KIAUnknown MIAUnknown WIAup to 190 tanks,,,Hermann Balck,V.M. Badanov,,"December 16–28, 1942","Tatsinskaya, Soviet Union",Soviet strategic victory,,,,,,100,Tatsinskaya Raid,Operation Little Saturn,,https://en.wikipedia.org/wiki/Tatsinskaya_Raid,,,1942-12-01,1942-12-01
+77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Italy Germany Hungary,Soviet Union,,Unknown,Unknown,,,Giulio Martinat † Luigi Reverberi,Fyodor Isidorovich Kuznetsov Dmitri Danilovich Lelyushenko,,"January 13–26, 1943 (including prelude)","Nikolayevka, Belgorod Oblast, Russian SFSR, Soviet Union",Axis breakout,"8–9,000[citation needed]","6,000 infantry (plus Soviet partisans)[citation needed]",,,,100,Battle of Nikolayevka,Operation Little Saturn,,https://en.wikipedia.org/wiki/Battle_of_Nikolayevka,,,1943-01-01,1943-01-01
+79,0,0,0,0,0,0,0,0,4786,30325,15762,3711,0,11,10885,1086,Soviet Union,Germany Romania Italy,,Unknown,"From 11 to 31 December 1942: 15,751 casualties (3,700 killed, 10,874 wounded and 1,086 missing)[5]",,,Andrey Yeryomenko Rodion Malinovsky Aleksandr Vasilevsky,Erich von Manstein Hermann Hoth Karl-Adolf Hollidt Petre Dumitrescu Italo Gariboldi,,12–23 December 1942,Southwest of Stalingrad,"Soviet victory
+
+Axis failure to rescue 6th Army in Stalingrad pocket","150,000 personnel630 tanks1,500 artillery guns[1][2]","est. 50,000[3] personnel250 tanks[4]",,,,100,Operation Winter Storm,Eastern Front,December 1942,https://en.wikipedia.org/wiki/Operation_Winter_Storm,,,1942-12-01,1942-12-01
+80,0,500,500,0,0,0,0,0,10402231674,10402304022,0,10402231674,0,0,72348,0,Germany,Soviet Union,,"Soviet estimate: ~60.000 killed, missing or wounded, 4.500 captured[3]","104,02231,674 killed or missing72,348 wounded[4]",,,Kurt von der Chevallerie,Maksim Purkayev,,19 November 1942 – 16 January 1943,"Velikiye Luki, Russian SFSR, Soviet Union",Soviet victory,"LIX Korps – ~50,000 (on 19 Nov)Reinforcement forces: ~50,000[1]","3rd Shock Army – 95,608 (on 19 Nov)Reinforcement forces: 86,700[2]",,,,100,Battle for Velikiye Luki (1943),Eastern Front,,https://en.wikipedia.org/wiki/Battle_for_Velikiye_Luki_(1943),,,1942-11-01,1943-01-01
+81,3945,3645,250,3895,0,250,250,300,20000,20000,0,20000,0,0,0,0,Germany,Soviet Union,,"250th: 3,645 killed and wounded300 missingOther units: uncertain","More than 20,000 killed, wounded and missing",,,Georg LindemannEmilio Esteban Infantes,Vladimir Sviridov,,"February 10–13, 1943","Krasny Bor, near present-day Saint Petersburg, Russia",Axis victory,"Initial:
+
+250th: 5,900 infantry
+4th SS: uncertain
+Reinforcements:
+
+uncertain","Initial:33,000 infantry30 tanks1,000 Artillery pieces and Mortars
+
+Total: 38,000 infantry 90 tanks",,,,100,Battle of Krasny Bor,Operation Polyarnaya Zvezda,,https://en.wikipedia.org/wiki/Battle_of_Krasny_Bor,,,1943-02-01,1943-02-01
+83,52000,52000,71000,52000,71000,0,71000,0,33000,33000,33000,0,0,0,0,0,Hungary Italy,Soviet Union,,"52,000 killed71,000 prisoners","33,000 dead and wounded",,,Gusztáv Jány Italo Gariboldi,Filipp Golikov,,13 January 1943[1] – 27 January 1943,"Ostrogozhsk, Rossosh",Soviet victory,"260,000 men",unknown,,,,100,Ostrogozhsk-Rossosh Operation,Eastern Front,,https://en.wikipedia.org/wiki/Ostrogozhsk-Rossosh_Operation,,,1943-01-01,1943-01-01
+84,765,0,3208,3208,765,3208,3208,765,0,0,0,0,0,0,0,0,Germany Hungary,Soviet Union,,"91,000 KIA/WIA/MIA 143 tanks,765 artillery pieces,2,300 trucks[1]","13,876 KIA.[2]",,,Maximilian von WeichsHans von Salmuth,Aleksandr VasilevskyFilipp GolikovMax Reyter,,24 January – 17 February 1943,"Voronezh, Kastornoye, Soviet Union",Soviet victory,"327,900 men, 960 tanks","987,000 men, 2,100 tanks",,,,100,Battle of Voronezh (1943),Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Voronezh_(1943),,,1943-01-01,1943-02-01
+85,0,127719,86469,0,0,0,127719,0,0,18500,11500,0,0,0,18500,0,Soviet Union,Germany,,"86,469 overall45,219 KIA and MIA41,250 wounded[1]","~11,500 overall~4,500 KIA and MIA[3]~7,000 wounded[3]",,,Filipp Golikov Nikolay VatutinK. Rokossovsky Vasily Koptsov †,Erich von MansteinPaul HausserHermann Hoth E. von Mackensen Theodor Eicke †,,19 February  – 15 March 1943,"Kharkov, Ukrainian SSR, Soviet Union49°58′0″N 36°19′0″E﻿ / ﻿49.96667°N 36.31667°E﻿ / 49.96667; 36.31667Coordinates: 49°58′0″N 36°19′0″E﻿ / ﻿49.96667°N 36.31667°E﻿ / 49.96667; 36.31667",German victory,"Involved in the Soviet attack: 560,000
+
+Involved in the defense of Kharkov: 346,000 [1]","Involved in the German counterattack:70,000
+
+Involved in the offense on Kharkov: 70,000 [2]",,,,100,Third Battle of Kharkov,Eastern Front,,https://en.wikipedia.org/wiki/Third_Battle_of_Kharkov,49.96667,36.31667,1943-02-01,1943-03-01
+86,853,0,91,91,11,91,91,853,5500,0,400,400,0,400,400,5500,Germany,Soviet Union,,"German (on 12 July):[j]
+
+43–80 tanks and assault guns destroyed or damaged
+842 men killed, wounded and missing
+6 aircraft destroyed
+5 aircraft damaged","Soviet (on 12 July):[j]
+
+300–400 tanks and self-propelled guns destroyed or damaged
+5,500 men killed, wounded and missing",,,"Hermann Hoth
+Paul Hausser
+
+Otto Deßloch","Nikolai Vatutin
+Pavel Rotmistrov
+Alexei Zhadov
+
+Stepan Krasovsky
+Vladimir Sudets",,12 July 1943[a],"Prokhorovka, Russian SFSR, Soviet Union51°2′11″N 36°44′11″E﻿ / ﻿51.03639°N 36.73639°E﻿ / 51.03639; 36.73639Coordinates: 51°2′11″N 36°44′11″E﻿ / ﻿51.03639°N 36.73639°E﻿ / 51.03639; 36.73639","Both sides failed to achieve their objectives:[1][2]
+
+German tactical victory[3][4][5][6]
+Soviet operational victory[7][8][9]","German:
+
+294 tanks and assault guns[i]","Soviet:
+
+616 tanks and self-propelled guns[i]",,,,100,Battle of Prokhorovka,Battle of Kursk,,https://en.wikipedia.org/wiki/Battle_of_Prokhorovka,51.03639,36.73639,1943-07-01,1943-07-01
+87,112187,75154,218,14433,218,218,61157,97972,543433,429890,116129,3600,1014,4492,320961,430904,Germany,Soviet Union,,"86,454 men[4]
+
+14,215 killed
+11,300 missing
+60,939 wounded
+unknown tanks[N 1]unknown guns 218 aircraft[6]","429,890 men[7][8]
+
+112,529 dead or missing
+317,361 wounded or sick
+2,586 tanks destroyed[9]892 guns lost[9]1,014 aircraft destroyed[9]",,,Walter Model Lothar Rendulic,Konstantin Rokossovsky Hovhannes Bagramyan,,12 July – 18 August 1943(1 month and 6 days),"Orel, Russian SFSR",Soviet victory,"300,700 men [1] 625 tanks and assault guns[1] 610 aircraft[1] 5,500 guns[1]","1,286,000 men[2] 2,409 tanks and assault guns[2]  2,220[3]–3,023[2] aircraft26,379 guns[2]",,,,100,Operation Kutuzov,Battle of Kursk,,https://en.wikipedia.org/wiki/Operation_Kutuzov,,,1943-07-01,1943-08-01
+90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union Poland,,c. 1500,c. 3000,,,Gottfried Fröhlich,Vasiliy Nikolayevich Gordov Zygmunt Berling,,"October 12–13, 1943","Lenino, Byelorussian SSR, Soviet Union",Soviet-Polish offensive failureLimited territorial gains for the Soviet-Polish forces,"Army Group Centre
+
+German 4th Army",33rd Soviet ArmyPolish 1st Tadeusz Kościuszko Infantry Division,,,,100,Battle of Lenino,Battle of Smolensk (1943),,https://en.wikipedia.org/wiki/Battle_of_Lenino,,,1943-10-01,1943-10-01
+92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,,,,Unknown,Erich von Manstein,Nikolai Vatutin  Ivan Konev,,3 August 1943 – 23 August 1943,Belgorod,Soviet victory,,,,,,100,Battle of Belgorod,Fourth Battle of Kharkov,,https://en.wikipedia.org/wiki/Battle_of_Belgorod,,,1943-08-01,1943-08-01
+94,146308,118042,396,28537,125,396,90297,118167,20901,15711,0,2628,0,0,13083,18273,Soviet Union Czechoslovakia,Germany,,"118,042 men[1]
+
+28,141 killed, missing or captured
+89,901 wounded or sick
+271 tanks (3–13 November)
+
+125 aircraft (3–13 November)","16,992 men[2]
+
+2,628 killed
+13,083 wounded
+1,281 missing",,,Nikolai Vatutin,Hermann Hoth Erhard Raus,,3 November 1943 – 13 November 1943(Offensive operation) 13 November 1943 – 22 December 1943(Defensive operation),"Kiev, Soviet Union",Soviet victory,"730,000 men[1]7,000 guns and mortars675 tanks and assault guns700 combat aircraft",Unknown,,,,100,Battle of Kiev (1943),Battle of the Dnieper,,https://en.wikipedia.org/wiki/Battle_of_Kiev_(1943),,,1943-11-01,1943-12-01
+96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Concert (operation),Eastern Front,,https://en.wikipedia.org/wiki/Concert_(operation),,,,
+97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Zhitomir–Berdichev Offensive,Dnieper–Carpathian Offensive,,https://en.wikipedia.org/wiki/Zhitomir%E2%80%93Berdichev_Offensive,,,,
+98,85050,85000,18206,85206,18050,206,18206,50,24286,80188,728,25014,0,728,56630,0,Germany,Soviet Union,,"Frieser, Zetterling and Frankson:30,000 killed, missing and wounded[8]156 tanks[9]50 aircraft[10]Erickson, Glantz and House:73,000
+
+55,000 killed and wounded18,000 prisoners[11][12]","80,188
+
+24,286 killed or missing55,902 wounded and sick[13][14]  728 tanks[15]",,,Erich von MansteinOtto Wöhler Hermann BreithWilhelm Stemmermann †,Georgy Zhukov Nikolai Vatutin Ivan Konev,,24 January 1944 – 16 February 1944,"Cherkasy / Korsun, USSR",Soviet victory and successful encirclement.[1][2],"60,000 men in pocket 59 tanks in pocket242 artillery pieces in pocket[3]80,000 men (reinforcement)III Panzer Corps (201 tanks) (reinforcement)[4]XLVII Panzer Corps (58 tanks) (reinforcement)[5]","336,700 men[6] 524 tanks (initially)400 tanks (reinforcement)1,054 aircraft5,300 artillery pieces and mortars[7]",,,,100,Korsun Pocket,Dnieper–Carpathian Offensive,,https://en.wikipedia.org/wiki/Battle_of_the_Korsun%E2%80%93Cherkassy_Pocket,,,1944-01-01,1944-02-01
+99,0,121204,121204,0,0,0,121204,0,0,0,130000,130000,0,130000,130000,0,Soviet Union,Germany Romania,,"121,204 overall[1][2]","45,000 Germans killed 25,000 Germans captured130,000 total German casualties excluding Romanians",,,Ivan Konev,Erich von Manstein,,5 March – 17 April 1944,175 km sector of the front between Uman and Kirovograd in western Ukraine,Decisive Soviet victory,"2nd Ukrainian Front691,000 men670 tanks and assault guns8,890 artillery pieces","German 8th Army400,000 men450 tanks and assault guns3,500 artillery pieces",,,,100,Uman-Botoshany Offensive,Dnieper–Carpathian Offensive,,https://en.wikipedia.org/wiki/Uman%E2%80%93Boto%C8%99ani_Offensive,,,1944-03-01,1944-04-01
+100,0,60227,60227,0,0,0,45678,0,0,0,318,318,0,318,318,0,Germany,Soviet Union,,"14,549 captured[1]
+45,000 overall[2]
+
+678 operational and non-operational tanks/assault guns captured[3]",318 tanks and assault guns[4],,,Erich von Manstein(Army Group South) Hans-Valentin Hube(1st Panzer Army),Georgi Zhukov Nikolai Vatutin(1st Ukrainian Front) Ivan Koniev(2nd Ukrainian Front),,25 March – 8 April 1944,"Kamianets-Podilskyi / Tarnopol, USSR",Strategic Soviet victory,"220,000 men43 tanks50 assault guns",Unknown,,,,100,Kamenets-Podolsky pocket,Dnieper–Carpathian Offensive,,https://en.wikipedia.org/wiki/Kamenets-Podolsky_pocket,,,1944-03-01,1944-04-01
+102,24739,143302,96390,0,0,0,46912,0,76686,627906,390639,0,0,0,237267,0,Germany,Soviet Union,,"24,739 dead and missing[3]46,912 wounded[3] Total: 71,651 casualties (per German military medical reports)[3]","76,686 dead and missing, 237,267 wounded[4]Total: 313,953 casualties[4]",,,Georg von Küchler(Until February 1) Walter Model(From February 1),Kirill Meretskov Leonid Govorov,,"January 14 – March 1, 1944","Southern Leningrad region, Novgorod, Pskov[1] and Narva",Soviet victorySiege of Leningrad lifted,"500,000 men2,389 artillery pieces146 tanks140 aircraft[2]","822,000 men4,600 artillery pieces550 tanks653 aircraft[2]",,,Recapture of the region by Soviet forces,100,Leningrad–Novgorod Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Leningrad%E2%80%93Novgorod_Offensive,,,1944-01-01,1944-03-01
+103,85050,85000,18206,85206,18050,206,18206,50,24286,80188,728,25014,0,728,56630,0,Germany,Soviet Union,,"Frieser, Zetterling and Frankson:30,000 killed, missing and wounded[8]156 tanks[9]50 aircraft[10]Erickson, Glantz and House:73,000
+
+55,000 killed and wounded18,000 prisoners[11][12]","80,188
+
+24,286 killed or missing55,902 wounded and sick[13][14]  728 tanks[15]",,,Erich von MansteinOtto Wöhler Hermann BreithWilhelm Stemmermann †,Georgy Zhukov Nikolai Vatutin Ivan Konev,,24 January 1944 – 16 February 1944,"Cherkasy / Korsun, USSR",Soviet victory and successful encirclement.[1][2],"60,000 men in pocket 59 tanks in pocket242 artillery pieces in pocket[3]80,000 men (reinforcement)III Panzer Corps (201 tanks) (reinforcement)[4]XLVII Panzer Corps (58 tanks) (reinforcement)[5]","336,700 men[6] 524 tanks (initially)400 tanks (reinforcement)1,054 aircraft5,300 artillery pieces and mortars[7]",,,,100,Korsun-Cherkassy Pocket,Eastern Front,,https://en.wikipedia.org/wiki/Korsun-Cherkassy_Pocket,,,1944-01-01,1944-02-01
+104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,"21,000 all causes85 artillery[2]",Georg von Küchler,Leonid Govorov,,14–30 January 1944,"Leningrad Oblast, Soviet Union",Soviet victory,One army110 armoured vehicles,Three armies681 armoured vehicles 1200 artillery[1],,,,100,Krasnoye Selo–Ropsha Offensive,Battle of Narva (1944),,https://en.wikipedia.org/wiki/Krasnoye_Selo%E2%80%93Ropsha_Offensive,,,1944-01-01,1944-01-01
+105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Georg Lindemann,Leonid A. Govorov,,1 February—1 March 1944,"Leningrad region, Soviet Union; Narva, Estonia",Soviet victory,"One army: 100,000 personnel1500 artillery100 armoured vehicles400 aircraft[1]",Two armies and the Baltic Fleet,,,,100,Kingisepp–Gdov Offensive,Battle of Narva (1944),,https://en.wikipedia.org/wiki/Kingisepp%E2%80%93Gdov_Offensive,,,1944-02-01,1944-03-01
+106,200,800,200,0,0,0,600,0,3000,0,3029,3029,3000,3029,3029,3000,"Germany
+
+Estonian conscripts",Soviet Union,,200 dead600 wounded[3],3000 all causes17 fighters29 tanks[3],,,Felix Steiner,Filip Starikov,,"July 20–25, 1944","Auvere, EstoniaCoordinates: 59°21′02″N 27°55′50″E﻿ / ﻿59.35056°N 27.93056°E﻿ / 59.35056; 27.93056",German defensive victory,"17,100 personnel[1][2]4–6 batteries 49 dive bombers[2]","46,385 personnel[1][2]30–50 batteries546 bombers[2]",,,,100,Battle of Auvere,Battle for Narva Bridgehead,,https://en.wikipedia.org/wiki/Battle_of_Auvere,59.35056,27.93056,1944-07-01,1944-07-01
+108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,unknown,unknown,,,Johannes Frießner,Leonid A. Govorov,,15 - 28 February 1944,"Narva, Estonia",German defensive victory,"123,541[1]100 armoured vehicles1,500 artillery pieces400 aircraft[2]","200,000[3]",,,,100,Narva Offensive (15–28 February 1944),Battle of Narva (1944),,https://en.wikipedia.org/wiki/Narva_Offensive_(15%E2%80%9328_February_1944),,,1944-02-01,1944-02-01
+109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,Soviet Union,,thousands[2][4],Many more than the Germans[2],,,Johannes Frießner,Leonid A. Govorov,,1–4 March 1944,"Narva, Estonia",German defensive victory,"123,541[1]","200,000[2]100 armoured vehicles[3]2,500 artillery pieces800 aircraft[1]",,,,100,Narva Offensive (1–4 March 1944),Battle of Narva (1944),,https://en.wikipedia.org/wiki/Narva_Offensive_(1%E2%80%934_March_1944),,,1944-03-01,1944-03-01
+110,2500,10000,6,2506,0,6,7506,0,35000,170000,164,35164,0,164,135164,0,Germany,Soviet Union,,"Contemporary estimate:2,500 killed or missing7,500 wounded or sick[8]6 tanks[7]Total:10,000","Contemporary estimate:35,000 killed or missing135,000 wounded or sick[8]157–164 tanks[7]Total:170,000",,,Felix Steiner,Leonid Govorov,,25 July-10 August 1944,"Sinimäed Hills, Estonia59°22′32″N 27°51′17″E﻿ / ﻿59.37556°N 27.85472°E﻿ / 59.37556; 27.85472Coordinates: 59°22′32″N 27°51′17″E﻿ / ﻿59.37556°N 27.85472°E﻿ / 59.37556; 27.85472",Tactical German victory,"22,250[1]7 tanks[2][3]70–80 assault guns[3]49 aircraft[4][5]","136,830 troops[6]150 armoured vehicles[7]1,680 assault guns[7]546 aircraft[4][5]",,,,100,Battle of Tannenberg Line,Narva Offensive (July 1944),,https://en.wikipedia.org/wiki/Battle_of_Tannenberg_Line,59.37556,27.85472,1944-07-01,1944-08-01
+113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soviet Union,Germany Romania,,,,,"6,985 killed or missing[1]
+20,412 sick or wounded[1]
+Total: 27,397[1]","Ivan Petrov
+ Lev Vladimirsky",Erwin Jaenecke Corneliu Teodorini,,November 1943,"Kerch Peninsula, Soviet Union",Axis Defensive VictoryStrategic Soviet Victory,,,,"150,000 men[1]",,100,Kerch-Eltigen Operation,Crimean Offensive (1944),,https://en.wikipedia.org/wiki/Kerch-Eltigen_Operation,,,1943-11-01,1943-11-01
+115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Georg-Hans Reinhardt(Third Panzer Army)Paul Laux (Sixteenth Army),Hovhannes Bagramyan(1st Baltic Front),,"July 5, 1944 – August 29, 1944","Belorussian SSR, Lithuania, and Latvia56°N 24°E﻿ / ﻿56°N 24°E﻿ / 56; 24Coordinates: 56°N 24°E﻿ / ﻿56°N 24°E﻿ / 56; 24",Soviet victory,,,,,,100,Shyaulyay Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Shyaulyay_Offensive,56.0,24.0,1944-07-01,1944-08-01
+116,25,91,0,23,0,2,68,2,334,477,372,133,23,6,23,6,Finland Nazi Germany,Soviet Union,,23 killed68 wounded2 gunboats damaged2 minesweepers damaged[1][2],7 patrol boats sunk[Notes 1]5 aircraft shot down128 killed149 captured200 drowned1 gunboat damaged1 minesweeper damaged11 patrol boats damaged[1],,,Unknown,Unknown,,8–10 July 1942,Sommers in Gulf of Finland60°12′25″N 27°38′35″E﻿ / ﻿60.207°N 27.643°E﻿ / 60.207; 27.643Coordinates: 60°12′25″N 27°38′35″E﻿ / ﻿60.207°N 27.643°E﻿ / 60.207; 27.643,Finnish victory,,,,unknown,,100,Battle of Someri,Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Someri,60.207,27.643,1942-07-01,1942-07-01
+117,13680,74112,29612,13658,741,741,57447,13673,60000,0,0,0,60000,60000,0,0,Finland Germany,Soviet Union,,"Karelian Isthmus: 9,300 deceased32,400 wounded (Karelian Isthmus June 9 – July 15)3,000 captured (all fronts)Karelian Front: 3,600 deceased and 12,100 wounded (June 9 – July 15). Based on database of deceased Finnish military persons excluding non-battle deaths. Total: 12,932 soldiers deceased (June 9 – July 15 in all fronts and all military branches) and 2,786 (July 16 – August 9.) Deceased soldiers in all fronts (June 9 – August 9, 1944): 10,008 KIA, 2,870 DIW (died in wounds), 2,802 MIA and confirmed deceased, 39 died in captivity, 726 non-combat deaths.[3]","Vyborg Offensive:Leningrad Front (10–20 June)6,018 KIA & MIA24,011 WIA & sick. Finnish estimation based on Soviet data and recalculations of losses including reinforcments and all units (Tapio Tiihonen, 2000): 60,000 KIA, WIA, MIA (52,000 losses of units and 8,000 losses of replacements)[2]Svir-Petrozavodsk Offensive: Karelian Front (21 June – 9 August)16,924 KIA & MIA46,679 WIA & sick.[2]Virojoki-Lappeenranta Offensive (Finnish estimate based on Soviet data): Leningrad Front (21 June – 15 July)15,000 KIA & MIA53,000 WIA & sick. Finnish estimation (Tapio Tiihonen, 2000): 129,000 KIA, WIA, MIA (based on recalculation of Soviet data, units, reinforcements. Tiihonen found contradictory information there.) Total military losses of Soviet offensive in Karelian Isthmus:  (June 9 – July 18): 189,000 KIA, WIA and MIA[4][5]Baltic Fleet and Lake Ladoga/Lake Onega Detachments (Whole duration) 732 KIA & MIA2,011 WIA & sick.[2][Notes 1][Notes 2]",,,C.G.E. Mannerheim Karl Lennart Oesch,Leonid Govorov Kirill Meretskov,,"June 10 – August 9, 1944[1]","Karelo-Finnish SSR, Leningrad Oblast","Initial Soviet tactical victory, ending in stalemate
+
+Moscow armistice","75,000 soldiers (Karelian Isthmus, initially)268,000 soldiers (after reinforcements both Karelian Isthmus and Karelian Front)1,930 artillery pieces110 tanks/assault guns (30–40 modern, StuG III, T-34, KV-1)248 aircraft (only 50 were modern, Bf 109, Ju 88)[1]","451,500 soldiers (+5 new divisions were sent later to Karelian Isthmus)[2]10,500 artillery pieces800 tanks1,600 aircraft[1]",,,Soviets recapture East Karelia and southern Karelian Isthmus.,100,Vyborg–Petrozavodsk Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Vyborg%E2%80%93Petrozavodsk_Offensive,,,1944-06-01,1944-08-01
+118,42540,41700,1766,43466,840,1766,1766,840,127,14,431,445,113,431,431,113,Nazi Germany,Soviet Union,,"41,700 killed126 tanks and assault guns destroyed1.840 armord vehicles17.800 taken prisoner{{Citation needed}}",11.014 killed 318 tanks destroyed113 aircraft shot down{{Citation needed}},,,Georg-Hans Reinhardt (Third Panzer Army)Kurt von Tippelskirch (Fourth Army),Hovhannes Bagramyan (1st Baltic Front)Ivan Chernyakhovsky (3rd Belorussian Front),,23–28 June 1944,Belorussian SSR53°N 23°E﻿ / ﻿53°N 23°E﻿ / 53; 23Coordinates: 53°N 23°E﻿ / ﻿53°N 23°E﻿ / 53; 23,Soviet victory,14 infantry divisions2 tank divisions(exact number of troops unknown),?,,,,100,Vitebsk–Orsha Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Vitebsk%E2%80%93Orsha_Offensive,53.0,23.0,1944-06-01,1944-06-01
+119,33000,33000,0,33000,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,"33,000 killed, 3,250 POW (Soviet est)[1]",?,,,Kurt von Tippelskirch (Fourth Army),Georgiy Zakharov(2nd Belorussian Front),,"June 23, 1944 – June 28, 1944",Belorussian SSR,Soviet Victory,?,?,,,,100,Mogilev Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Mogilev_Offensive,,,1944-06-01,1944-06-01
+120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,?,?,,,Hans Jordan (Ninth Army),Konstantin Rokossovsky(1st Belorussian Front),,23–28 June 1944,Belorussian SSR,Soviet Victory,"90,000",?,,,,100,Bobruysk Offensive,Operation Bagration,June 1944,https://en.wikipedia.org/wiki/Bobruysk_Offensive,,,1944-06-01,1944-06-01
+121,40000,40000,100000,140000,0,100000,100000,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,"100,000 troops caught in encirclement(40,000 killed or missing,rest either wounded or captured)",unknown,,,Walter Model(Army Group Centre) Kurt von Tippelskirch Dietrich von Saucken Vincenz Müller (elements of Fourth Army),Ivan Chernyakhovsky(3rd Belorussian Front)  Konstantin Rokossovsky(1st Belorussian Front)  Georgiy Zakharov(2nd Belorussian Front)  Hovhannes Bagramyan(1st Baltic Front),,29 June — 4 July 1944,Belorussian SSR,Soviet Victory,unknown,unknown,,,,100,Minsk Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Minsk_Offensive,,,1944-06-01,1944-07-01
+122,37000,37000,37000,0,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,"37,000 dead, 7,000 POW (Soviet est)[1]",?,,,Georg-Hans Reinhardt (Third Panzer Army)Rolf Wuthmann (IX Corps),Hovhannes Bagramyan(1st Baltic Front),,"June 29, 1944 – July 4, 1944",Belorussian SSR,Soviet Victory,?,?,,,,100,Polotsk Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Polotsk_Offensive,,,1944-06-01,1944-07-01
+123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Georg-Hans Reinhardt(Third Panzer Army)Paul Laux (Sixteenth Army),Hovhannes Bagramyan(1st Baltic Front),,"July 5, 1944 – August 29, 1944","Belorussian SSR, Lithuania, and Latvia56°N 24°E﻿ / ﻿56°N 24°E﻿ / 56; 24Coordinates: 56°N 24°E﻿ / ﻿56°N 24°E﻿ / 56; 24",Soviet victory,,,,,,100,Šiauliai Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/%C5%A0iauliai_Offensive,56.0,24.0,1944-07-01,1944-08-01
+124,0,0,70,70,0,70,70,0,8000,13000,5000,8000,0,0,0,0,Soviet Union,Germany,Polish Home Army,"50-70 tanks
+
+?","8,000 killed; 5,000 captured in Vilnius alone (Soviet est)",?,,Ivan Chernyakhovsky Pavel Rotmistrov,Walter Model Dietrich von Saucken Rainer Stahel Theodor Tolsdorff,Aleksander Krzyżanowski Antoni Olechnowicz,July 1944,Belarus (Minsk Region) and Lithuania (Vilnius Region and Alytus Region)54°40′N 25°15′E﻿ / ﻿54.667°N 25.250°E﻿ / 54.667; 25.250Coordinates: 54°40′N 25°15′E﻿ / ﻿54.667°N 25.250°E﻿ / 54.667; 25.250,Soviet victory,"~100,000","7,700",?,,,100,Vilnius Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Vilnius_Offensive,54.667,25.25,1944-07-01,1944-07-01
+125,30000,30000,0,30000,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,"30,000 killed, 1,011 POW (Soviet est)[1]",?,,,Helmuth Weidling (remnants of Fourth Army)Walter Weiß (elements of Second Army),Gyorgy Zakharov(2nd Belorussian Front),,5–27 July 1944,Poland,Soviet victory,?,?,,,,100,Belostock Offensive,Operation Bagration,July 1944,https://en.wikipedia.org/wiki/Belostock_Offensive,,,1944-07-01,1944-07-01
+126,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany Romania,Soviet Union Poland,,,,,,Josef Harpe (Army Group North Ukraine) Georg Hans Reinhardt (Army Group Centre),Konstantin Rokossovsky (1st Belorussian Front),,"18 July - 2 August 1944 (primary operation), 30 September 1944 (secondary operation)",Eastern Poland/Western Belarus,Soviet victory,,,,,,100,Lublin–Brest Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Lublin%E2%80%93Brest_Offensive,,,1944-07-01,1944-09-01
+127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Walter Model(Army Group Centre),Ivan Chernyakhovsky(3rd Belorussian Front),,"July 28 - August 28, 1944","Kaunas area, Lithuania54°55′N 24°00′E﻿ / ﻿54.917°N 24.000°E﻿ / 54.917; 24.000Coordinates: 54°55′N 24°00′E﻿ / ﻿54.917°N 24.000°E﻿ / 54.917; 24.000",Soviet victory,,,,,,100,Kaunas Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Kaunas_Offensive,54.917,24.0,1944-07-01,1944-08-01
+128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,?,?,,,"Helmuth Weidling,Friedrich Herrlein",Gyorgy Zakharov(2nd Belorussian Front),,"August 6, 1944 – August 14, 1944",Poland,,?,?,,,,100,Osovets Offensive,Operation Bagration,,https://en.wikipedia.org/wiki/Osovets_Offensive,,,1944-08-01,1944-08-01
+130,2495,7650,8795,10145,45,8795,15095,1145,7526,27638,28424,35359,303,28403,49083,612,FinlandSupported by: Nazi Germany,Soviet Union,,"Finnish: c. 8,750 total
+
+1,350 killed[6]
+1,100 missing[6]
+6,300 wounded[5]
+12 aircraft[10]
+ German:
+
+33 aircraft[10]","Finnish estimate:600 tanks[11]120–280 aircraft[5]Later Finnish estimate:21st Army:estimated 4,500–5,500 killed13,500–14,500 wounded[12][13][verification needed]23rd Army:1,458 killed, 288 missing, 6,159 wounded[14]27,500 total casualties",,,Carl Gustaf Emil Mannerheim  Karl Lennart Oesch Kurt Kuhlmey,Leonid Govorov Dmitry Gusev Aleksandr Cherepanov,,"June 25 to July 9, 1944",60°46′N 28°53′E﻿ / ﻿60.767°N 28.883°E﻿ / 60.767; 28.883﻿ (Battle of Tali-Ihantala)Coordinates: 60°46′N 28°53′E﻿ / ﻿60.767°N 28.883°E﻿ / 60.767; 28.883﻿ (Battle of Tali-Ihantala)Karelian Isthmus,Finnish victory[1][2][3],"50,000[4][5] 4,000[6]","150,000[5][7][8][6]Soviet sources:148,000–160,000[9]",,,,100,Battle of Tali-Ihantala,Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Tali-Ihantala,60.767,28.883,1944-06-01,1944-07-01
+131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soviet Union,Finland   Nazi Germany,,,,,,Leonid Govorov,Pekka Enkainen Hero Breusing,,"June 30 – July 10, 1944",Viborg Bay60°35′N 28°30′E﻿ / ﻿60.583°N 28.500°E﻿ / 60.583; 28.500Coordinates: 60°35′N 28°30′E﻿ / ﻿60.583°N 28.500°E﻿ / 60.583; 28.500,"Finnish/German defensive victory[1]
+
+Minor Soviet strategic victory",,,,,Soviets capture the main Viborg Bay islands,100,Battle of the Bay of Viipuri,Eastern Front,June–July 1944,https://en.wikipedia.org/wiki/Battle_of_the_Bay_of_Viipuri,60.583,28.5,1944-06-01,1944-07-01
+132,55000,191860,136860,55000,0,0,136860,0,65290,578592,290854,66559,289,1558,515149,289,Germany Hungary,"Soviet Union Poland
+
+
+ Armia Krajowa(23-27 July)",,"55,000 killed, missing and captured136,860 overall[3]","65,001 killed, missing or captured224,295 wounded289,296 overall1,269 tanks and SP guns 289 aircraft[2]",,,Josef Harpe(Army Group North Ukraine),Ivan Konev(1st Ukrainian Front),,13 July 1944 – 29 August 1944,Western Ukraine/Eastern Poland,Allied victory,"900,000 men900 AFVs6,300 guns[1]","1,002,200 men[2]1,979 AFVs11,265 guns",,,,100,Lvov–Sandomierz Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Lvov%E2%80%93Sandomierz_Offensive,,,1944-07-01,1944-08-01
+133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,,,,,Dietrich von Saucken,Alexei Radzievsky,,1–10 August 1944,"near Radzymin, Poland",German victory,XXXIX Panzer Corps,2nd Guards Tank Army,,,,100,Battle of Radzymin (1944),Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Radzymin_(1944),,,1944-08-01,1944-08-01
+134,15601,20901,6061,15560,360,360,360,360,0,0,0,0,0,0,0,0,"Polish Underground State  Polish First Army(from 14 September)[1]
+
+
+Supported by:
+
+ Royal Air Force including Polish squadrons(4 August – 21 September)No. 301 Polish Bomber Squadron  South African Air Force[2]  US Army Air Force(only on 18 September)  Soviet Air Force(from 13 September)",Nazi Germany,,"Polish resistance:  15,200 killed and missing[7] 
+5,000 WIA[7]  15,000 POW (Incl. capitulation agreement)[7] 
+
+
+Polish First Army: 5,660 casualties[7]
+
+Warsaw Airlift: 41 destroyed aircraft (360 aircrew killed)","German forces: 8,000-17,000[8][9] killed and missing  9,000 WIA",,,Tadeusz Bór-Komorowski (POW)  Tadeusz Pełczyński (POW)  Antoni Chruściel (POW)  Karol Ziemski (POW)  Edward Pfeiffer (POW)  Leopold Okulicki  Jan Mazurkiewicz  Zygmunt Berling  Konstantin Rokossovsky,Walter Model   Nikolaus von Vormann   Rainer Stahel   Erich von dem Bach-Zelewski   Heinz Reinefarth   Bronislav Kaminski   Oskar Dirlewanger  Petro Dyachenko,,1 August – 2 October 1944 (63 days),"Warsaw, Poland52°13′48″N 21°00′39″E﻿ / ﻿52.23000°N 21.01083°E﻿ / 52.23000; 21.01083Coordinates: 52°13′48″N 21°00′39″E﻿ / ﻿52.23000°N 21.01083°E﻿ / 52.23000; 21.01083",German victory,"Range 20,000[3] to 49,000[4] (initially) 
+
+2,500 equipped with guns (initially)","Range 13,000[5] to 25,000[6] (initially)
+
+Throughout the course of uprising: ~ 50,000",,,Destruction of the city,100,Warsaw Uprising,Eastern Front,,https://en.wikipedia.org/wiki/Warsaw_Uprising,52.23,21.01083,1944-08-01,1944-10-01
+135,0,0,40,40,0,66,40,0,0,0,27,27,0,27,27,0,Germany,Soviet Union  Poland,,"At least 40 tanks, 26 guns and mortars, 9 APCs 
+
+ ~1,000 Casualties (Killed, Wounded and Captured)","27 tanks
+
+~2,000 Casualties (Killed, Wounded and Missing)",,,Gen.Maj. Schmalz,2nd Lt. Świetana,,"August 9–16, 1944","Studzianki, Poland",Soviet-Polish victory,3 divisions,Polish 1st Armoured Brigade  8th Soviet Army,,,,100,Battle of Studzianki,Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Studzianki,,,,
+136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Georg-Hans Reinhardt(Army Group Centre) Erhard Raus(Third Panzer Army),Ivan Chernyakhovsky(3rd Belorussian Front) Hovhannes Bagramyan(1st Baltic Front),,16 August 1944 – 27 August 1944,Western Lithuania55°50′N 23°10′E﻿ / ﻿55.833°N 23.167°E﻿ / 55.833; 23.167Coordinates: 55°50′N 23°10′E﻿ / ﻿55.833°N 23.167°E﻿ / 55.833; 23.167,Inconclusive,,,,,,100,Operation Doppelkopf,Eastern Front,,https://en.wikipedia.org/wiki/Operation_Doppelkopf,55.833,23.167,1944-08-01,1944-08-01
+137,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Germany
+ Romania",Soviet Union,,unknown[a],unknown,,,"Otto Wöhler
+Hasso von Manteuffel
+ Mihai Racoviţǎ","Ivan Konev
+Semen Bogdanov
+F.F. Zhmachenko
+Sergei Trofimenko",,9–12 April 1944,Eastern Romania,Axis victory[1][2],"1 Panzergrenadier Division[3]
+2 Armoured Divisions[4]
+3 Infantry Divisions[5]","14 Rifle Divisions[6]
+1 Airborne Division[7]
+elements of a Tank army[4]",,,,100,First Battle of Târgu Frumos,Battle of Târgul Frumos,,https://en.wikipedia.org/wiki/First_Battle_of_T%C3%A2rgu_Frumos,,,1944-04-01,1944-04-01
+138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Nazi Germany,  Romania",Soviet Union,,Unknown,Unknown,,,Ferdinand Schoerner Mihai Racoviță,Ivan Konev,,2–8 May 1944[1],Eastern Romania,Axis victory,,,,,,100,Second Battle of Târgu Frumos,Battle of Târgul Frumos,,https://en.wikipedia.org/wiki/Second_Battle_of_T%C3%A2rgu_Frumos,,,1944-05-01,1944-05-01
+143,4200,9500,300,4200,0,0,5000,0,0,0,0,0,0,0,0,0,"Germany Slovak Republic
+
+ POHG","1st Czechoslovak Army in Slovakia
+
+ Slovak Insurgent Air Force
+ Soviet Air Force US Army Air Force",,"4200 killed, 5,000 wounded, 300 captives","12,000 KIA and murdered in reprisals",,,Gottlob Berger Hermann Höfle Ferdinand Čatloš,Ján Golian † Rudolf Viest †,,"August 29 – October 28, 1944",Slovakia,"German and collaborator victory 
+
+Continued partisan resistance","40,000, later increased to 83,000","18,000 initially, later increased to 78,000",,,,100,Slovak National Uprising,Eastern Front,,https://en.wikipedia.org/wiki/Slovak_National_Uprising,,,1944-10-01,1944-10-01
+144,0,0,0,0,0,0,0,0,11866,64995,13548,23608,0,0,54935,15354,Germany Hungary,Soviet Union Czechoslovakia,,"61,000(Czech estimates)[2]70,000(modern Russian estimates)[3]","10,060 killed41,387 wounded13,548 sick1,806 missing[4](modern Czech estimates)131,000[1](German historian Freiser)",,,Gotthard Heinrici Béla Miklós (8-16 Sept 1944) Dezső László (16 Sept-28 Oct 1944),Ivan Konev Andrei Grechko Kirill Moskalenko Ludvík Svoboda,,8 September – 28 October 1944,"Dukla Pass, present-day Slovakia-Poland border","Soviet and Czechoslovak tactical victory
+
+Soviet failure to join Slovak rebel troops
+Axis withdrawal from the area","100,000 soldiers2,000 artillery pieces350 tanks","378,000 men[1]16,700 Czechoslovak soldiers1,517 artillery pieces1,724 mortars1,000 tanks",,,,100,Battle of the Dukla Pass,Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_the_Dukla_Pass,,,1944-09-01,1944-10-01
+145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Ferdinand Schörner,Ivan BagramyanAndrei Yeremenko Ivan Maslennikov,,"September 14 - October 24, 1944","Latvia, Estonia",Soviet victory,,,,,,100,Riga Offensive (1944),Baltic Offensive,,https://en.wikipedia.org/wiki/Riga_Offensive_(1944),,,1944-09-01,1944-10-01
+146,500,1200,1200,0,0,0,0,0,0,0,0,0,0,0,0,0,Estonian conscripts,Soviet Union,,"500 dead, 700 captured[1]","~1,000",,,Juhan Vermet,August Feldman,,"September 21, 1944","Porkuni, Viru County, EstoniaCoordinates: 59°10′40″N 26°09′37″E﻿ / ﻿59.17778°N 26.16028°E﻿ / 59.17778; 26.16028",Soviet victory,"1,500","10,000",,,,100,Battle of Porkuni,Tallinn Offensive,,https://en.wikipedia.org/wiki/Battle_of_Porkuni,59.17778,26.16028,1944-09-01,1944-09-01
+148,7000,21200,14200,7000,0,0,1400,0,0,0,0,0,0,0,0,0,Germany,Soviet Union Finland[1],,"7,000 killed700 captured1,400 horses killedTotal:13,500 casualties",unknown,,,Ferdinand Schörner,Leonid Govorov,,"September 29, 1944 – November 24, 1944","West Estonian archipelago (Moonsund archipelago), Estonia",Soviet victory,"18,000",unknown,,,,100,Moonsund Landing Operation,Baltic Offensive,,https://en.wikipedia.org/wiki/Moonsund_Landing_Operation,,,1944-09-01,1944-11-01
+149,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Erhard Raus(Third Panzer Army)Hans Gollnick(XXVIII Corps),Hovhannes Bagramyan(1st Baltic Front),,5–22 October 1944 (main offensive); 28 January 1945 (end of siege),Klaipėda (Lithuania / East Prussia)55°40′N 21°30′E﻿ / ﻿55.667°N 21.500°E﻿ / 55.667; 21.500Coordinates: 55°40′N 21°30′E﻿ / ﻿55.667°N 21.500°E﻿ / 55.667; 21.500,Soviet victory,,,,,,100,Battle of Memel,Baltic Offensive,,https://en.wikipedia.org/wiki/Battle_of_Memel,55.667,21.5,1944-10-01,1945-01-01
+151,7303,40629,21791,4350,0,0,33326,0,0,0,0,0,0,0,0,0,Allies:  Soviet Union Yugoslav Partisans Bulgaria,"Axis: Germany
+
+ Government of National Salvation",,"Soviets:4,350 killed or missing14,488 wounded or sick18,838 overall[2]
+
+Yugoslav Partisans:2,953 dead(assault on Belgrade only)[3]","45,000[citation needed]",,,Fyodor Tolbukhin Vladimir Zhdanov Peko Dapčević Danilo Lekić Vladimir Stoychev Kiril Stanchev,Maximilian von Weichs Wilhelm Schneckenburger † Hans Felber Alexander Löhr,,28 September 1944 – 20 October 1944[1],"Belgrade, Yugoslavia",Decisive Allied victory,"580,000 troops3,640 artillery pieces520 tanks and assault guns1,420 aircraft80 ships","150,000 troops(mostly 2nd tier infantry & non-German support troops)2,100 artillery pieces125 tanks and assault guns350 aircraft70 ships",,,,100,Belgrade Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Belgrade_Offensive,,,1944-09-01,1944-10-01
+152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Nordlicht (1944-1945),Eastern Front,,https://en.wikipedia.org/wiki/Operation_Nordlicht_(1944-1945),,,,
+153,88000,35000,200,35200,0,690,200,53000,170573,117510,500,53713,0,2156,64797,117360,Germany Hungary,Soviet Union Romania,,"~15,000 killed or wounded 20,000 killed or woundedTotal: 53,000 men (including ~18,000 POW) ~200 tanks lost 490 guns lost[2][nb 1][3]","19,713 killed or missing and 64,297 wounded or sick[4] 33,500 killed or wounded[nb 2]Total: 117,360 men (including 5,073 POW)~500 tanks lost 1,656 guns lost",,,Johannes Friessner(Army Group South),Rodion Malinovsky(2nd Ukrainian Front),,6–29 October 1944,"Debrecen / Nyíregyháza, Hungary",Tactical German victoryStrategic Soviet victory,"1 October:[1]31 divisions and brigades 240,952 men 190,000 men293 tanks and assault guns3,500 guns and mortars741 aircraft","1 October:[1]84 divisions and brigades 698,200 men 167,306 men825 tanks and assault guns10,238 guns and mortars1,216 aircraft",,,,100,Battle of Debrecen,Eastern Front,,https://en.wikipedia.org/wiki/Battle_of_Debrecen,,,1944-10-01,1944-10-01
+154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hungary,Nazi Germany Arrow Cross Party,,,,,,Miklós HorthyGéza LakatosLajos CsatayJános VörösBéla MiklósLajos Veress,Edmund VeesenmayerOtto SkorzenyFerenc SzálasiKároly BeregfyIván Hindy,,15–16 October 1944,"Budapest, Kingdom of Hungary",Overthrow of Regent Miklós HorthyPro-Nazi Arrow Cross Party came to powerBeginning of the Holocaust in Hungary,,,,,,100,Operation Panzerfaust,Eastern Front,,https://en.wikipedia.org/wiki/Operation_Panzerfaust,,,1944-10-01,1944-10-01
+155,157408,346520,228649,117871,39537,39537,39537,39537,1945160950,2,2,2,2,2,0,1945160950,Germany,Soviet Union,,"October 1944–8 May 1945
+117,871 killed, wounded and missing (39,537 in February–March 1945)[1]
+
+189,112 captured on 9 May 1945[1]","2nd Baltic Front only: 16 Feb.–8 May 1945160,948 men[2][1]",,,Ferdinand SchörnerLothar Rendulic Heinrich von VietinghoffCarl Hilpert,Ivan BagramyanAndrey Yeryomenko Leonid Govorov,,9 October 1944 – 10 May 1945,"Courland, Latvia",Stalemate followed by the unconditional surrender of German forces in Courland on 8 and 9 May 1945.,,,,,,100,Courland Pocket,Eastern Front,,https://en.wikipedia.org/wiki/Courland_Pocket,,,1944-10-01,1945-05-01
+156,23037,16236,115,6916,0,115,9550,16236,96346,79527,914,17733,0,914,63622,79527,Germany,Soviet Union,,"16,236 men[2]
+
+6,801 killed or missing
+9,435 wounded
+115 tanks and assault guns destroyed[2]","79,527 men[2]
+
+16,819 killed or missing
+62,708 wounded
+914 tanks and assault guns destroyed[2]",,,Friedrich Hoßbach,Ivan Chernyakhovsky,,"October 16, 1944 – October 27, 1944",East Prussia,German victory,"318 tanks, assault guns and tank destroyers[1]","377,300 men[2]",,,,100,Gumbinnen Operation,Eastern Front,,https://en.wikipedia.org/wiki/Gumbinnen_Operation,,,1944-10-01,1944-10-01
+157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Konrad,Siege of Budapest,,https://en.wikipedia.org/wiki/Operation_Konrad,,,,
+160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Soviet Union Poland,Nazi Germany Hungary,,"10,000 Soviet KIA700 Polish KIA","6,000 German KIA100 Hungarian KIA23,000 POW",,,Mikhail Katukov Vasily Chuikov,Ernst Mattern Ernst Gonell †,,24 January – 23 February 1945,"Poznań and nearby area, Poland",Soviet victory,"100,000 Soviet soldiers5,000 Polish soldiers","15,700 fortress garrison soldiers22,600 regular field soldiers11,600 auxiliary forces8,000 Volkssturm1,100 Hungarian soldiers and mobilised Polish citizens25,000 SS and Police soldiers",,,,100,Battle of Poznań (1945),Vistula–Oder Offensive,,https://en.wikipedia.org/wiki/Battle_of_Pozna%C5%84_(1945),,,1945-01-01,1945-02-01
+162,80000,130000,50733,80605,128,605,733,0,146780,244333,99553,246333,0,2000,99553,97553,Nazi Germany,Soviet Union,,"80,000 killed50,000 captured605 tanks128 planes (According to Soviet information) [1]","146,780 killed, 97,553 sick or wounded, 2000 tanks and sp guns (estimated)[citation needed]",,,Friedrich Hossbach (4th Army until January 29) Friedrich Müller (4th Army from January 29),Konstantin Rokossovsky(2nd Belorussian Front)  Ivan Chernyakhovsky(3rd Belorussian Front until February 18 – KIA that day)  Aleksandr Vasilevsky (3rd Belorussian Front from February 19),,26 January – 29 March 1945,East Prussia,Soviet victory,"?150,000",?,,,,100,Heiligenbeil Pocket,East Prussian Offensive,,https://en.wikipedia.org/wiki/Heiligenbeil_Pocket,,,1945-01-01,1945-03-01
+163,0,184000,172000,122000,0,80000,214000,42000,0,0,0,0,0,0,0,0,Germany,Soviet Union,,"50,000 casualties80,000 taken prisonerAccording to Soviet information, the Germans lost 42,000 soldiers in combat and 92,000 were captured.[3]",60.000 casualties for the final assault[2],,,Otto Lasch (POW),Aleksandr Vasilyevskiy Konstantin Rokossovskiy,,Late January to 9 April 1945Final assault 6 April – 9 April,"Königsberg, Germany (now: Kaliningrad, Russia)",Soviet victory,"60,000[1]–130,000, 4,000 artillery guns and mortars, 108 tanks and assault guns, 170 aircraft[2]","137,000 (24,500 participated in active phase with rest supporting), 5,200 artillery guns and mortars, 528 tanks and SPG, 2174 aircraft[2]",,,,100,Battle of Königsberg,East Prussian Offensive,,https://en.wikipedia.org/wiki/Battle_of_K%C3%B6nigsberg,,,1945-01-01,1945-04-01
+165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9th Army Germany,"2nd Belorussian Front, Soviet Union",,,,,,Heinrich HimmlerOtto Skorzeny,Konstantin Rokossovsky,,"February 1 – March 3, 1945","Schwedt, Germany",Successful Soviet deception,"Originally a Kampfgruppe, later XI SS Panzer Corps","Deception by 2nd Guards Tank Army, supported by 61st and 49th Armies",,,,100,Defense of Schwedt Bridgehead,Eastern Front,,https://en.wikipedia.org/wiki/Defense_of_Schwedt_Bridgehead,,,1945-02-01,1945-03-01
+166,13000,60000,13000,0,0,0,47000,0,6000,109000,86000,0,0,0,23000,0,Soviet Union,Germany,,"60,000
+
+13,000 dead
+47,000 wounded","29,000
+
+6,000 dead
+23,000 wounded
+80,000 civilian deaths",,,"6th Army:
+ Vladimir A. Gluzdovskii","Festung Breslau:
+ Hans von Ahlfen
+ Hermann Niehoff",,"13 February 1945 – 6 May 1945 (2 months, and 24 days)","Breslau, Nazi Germany, now Wrocław, Poland51°07′N 17°02′E﻿ / ﻿51.117°N 17.033°E﻿ / 51.117; 17.033Coordinates: 51°07′N 17°02′E﻿ / ﻿51.117°N 17.033°E﻿ / 51.117; 17.033","Soviet victory
+
+Unconditional surrender of the city Breslau garrison on 6 May, followed by the unconditional surrender of all German forces two days after (see end of World War II in Europe)","87,334","50,000",,,,100,Siege of Breslau,Lower Silesian Offensive,February–May 1945,https://en.wikipedia.org/wiki/Siege_of_Breslau,51.117,17.033,1945-02-01,1945-05-01
+168,0,0,0,0,0,0,0,0,15876,15876,15876,0,15876,15876,15876,15876,Nazi Germany,Soviet Union,,unknown,"66,801 (including 15,876 irrecoverable)[1]",,,Ferdinand Schoerner,Ivan Konev,,15–31 March 1945,"Upper Silesia, Germany",Soviet victory,unknown,"408,400[1]",,,,100,Upper Silesian Offensive,Silesian Offensives,,https://en.wikipedia.org/wiki/Upper_Silesian_Offensive,,,1945-03-01,1945-03-01
+170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Germany,Soviet Union,,,,,,Walther WenckFelix Steiner,Georgy Zhukov,,15–18 February 1945,"Stargard, Pomerania, Germany53°12′00″N 15°01′12″E﻿ / ﻿53.20000°N 15.02000°E﻿ / 53.20000; 15.02000Coordinates: 53°12′00″N 15°01′12″E﻿ / ﻿53.20000°N 15.02000°E﻿ / 53.20000; 15.02000","German operational failure
+Soviet offensive on Berlin delayed for two months",7 panzer and Panzergrenadier divisions[1],1st Belorussian Front[1],,,,100,Operation Solstice,Eastern Front,,https://en.wikipedia.org/wiki/Operation_Solstice,53.2,15.02,1945-02-01,1945-02-01
+171,0,2000,2000,0,0,0,0,0,1206,1206,0,1206,0,0,0,0,Germany,Soviet Union Poland,,"KIA: unknown~2,000 captured","1,206 killed and missing",,,Fritz Fullriede,Stanislav Poplavsky,,"March 4–18, 1945","Kolberg, Pomerania, Germany(now Kołobrzeg, Poland)",Soviet and Polish victory,"10,000","28,000+",,,,100,Battle of Kolberg,East Pomeranian Offensive,,https://en.wikipedia.org/wiki/Battle_of_Kolberg_(1945),,,1945-03-01,1945-03-01
+173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bulgaria   Soviet Union Yugoslavia,Germany,,"2,500","10,000",,,Vladimir Stoychev Mikhail N. Sharokhin[1] Kosta Nađ,Maximilian de Angelis W. von Erdmannsdorff,,6–21 March 1945,Drava river valley and Transdanubian Hills,Allied victory,Bulgarian 1st ArmySoviet 57th ArmyYugoslav 3rd Army,2nd Panzer ArmyLXXXXI Corps,,,,100,Battle of the Transdanubian Hills,Operation Spring Awakening,,https://en.wikipedia.org/wiki/Battle_of_the_Transdanubian_Hills,,,1945-03-01,1945-03-01
+175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,,,,,,,,,,,,,,,,,,100,Operation Margarethe,Eastern Front,,https://en.wikipedia.org/wiki/Operation_Margarethe,,,,
+176,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bulgaria Soviet Union Yugoslav Partisans,Germany Hungary IS Croatia,,,,,,Vladimir Stoychev Mikhail Sharokhin,Otto Wöhler,,26 March – 15 April 1945,Western Hungary,Bulgarian-Soviet victory,"1st Bulgarian Army
+57th Army
+6th Guards Rifle Corps
+64th Rifle Corps
+133rd Rifle Corps
+27th Army
+Yugoslav Partisans","2nd Panzer Army
+67th Panzer Corps
+22nd Army Corps
+Hungarian Units
+Croatian Units",,,,100,Nagykanizsa–Kermend Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Nagykanizsa%E2%80%93Kermend_Offensive,,,1945-03-01,1945-04-01
+177,30000,155000,126345,31345,0,3595,1345,0,38661,335880,168543,39264,0,1367,297822,0,Germany Hungary,Soviet Union Bulgaria  Austrian Resistance,,"16 March-15 April: ~30,000 killed125,000 captured[2]1,345 tanks and assault guns lost[3][a]2,250 guns and mortars lost[3]","16 March-15 April: 167,940 overall38,661 killed129,279 wounded603 tanks and assault guns lost[3]764 guns and mortars lost[3][5][b]",,,Rudolf von Bünau Wilhelm Bittrich,Fyodor Tolbukhin Vladimir Stoychev,,2 April – 13 April 1945(1 week and 4 days),"Vienna, Nazi Germany",Soviet and Bulgarian victory,"16 March:[1]25 divisions270,000 men772 tanks and assault guns957 armored personnel carriers434 guns","16 March:[1]77 divisions1,171,800 men1,600 tanks and assault guns5,425 guns",,,,100,Vienna Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Vienna_Offensive,,,1945-04-01,1945-04-01
+178,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Nazi Germany,Soviet Union,,"Soviet claim: 80,000 KIA or POW",Unknown,,,Hans Gollnick(Army Detachment Samland)Dietrich von Saucken(Armee Ostpreußen),Hovhannes Bagramyan(Zemland Army Group),,"April 13, 1945 – April 25, 1945","Sambia, East Prussia (now Kaliningrad Oblast)",Soviet Victory,,,,,,100,Samland Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Samland_Offensive,,,1945-04-01,1945-04-01
+179,39000,39000,20000,59000,0,20000,20000,0,12000,12000,0,12000,0,0,0,0,Soviet Union Poland,Germany,,"30,000–33,000 killed[1][2]
+
+Estimate based on Soviet data: 5,000–6,000 killed and missing out of ~20,000 total casualties[3]","12,000  killed[1]",,,Georgy ZhukovVasily Chuikov,Gotthard HeinriciFerdinand Schörner,,16–19 April 1945,"Seelow Heights, Province of Brandenburg, Prussia, Germany52°31′47.3″N 14°25′33.9″E﻿ / ﻿52.529806°N 14.426083°E﻿ / 52.529806; 14.426083Coordinates: 52°31′47.3″N 14°25′33.9″E﻿ / ﻿52.529806°N 14.426083°E﻿ / 52.529806; 14.426083","Soviet/Polish victory, Complete encirclement of German capital","1,000,000 men3,059 tanks16,934 guns and mortars","112,143 men587 tanks2,625 guns",,,,100,Battle of the Seelow Heights,Battle of the Oder-Neisse,,https://en.wikipedia.org/wiki/Battle_of_the_Seelow_Heights,52.529806,14.426083,1945-04-01,1945-04-01
+181,85000,215000,155000,60000,25000,25000,0,25000,20000,20000,0,20000,0,0,0,0,Germany,Soviet Union,,"Over 35,000[citation needed] - 60,000 killed and 120,000 captured (25,000 escaped from pocket)
+10,000 civilians killed","Less than 20,000 killed[citation needed]",,,Theodor BusseWalther Wenck,Georgy ZhukovIvan Konev,,"April 24 – May 1, 1945","Halbe, Germany52°6′24″N 13°42′3″E﻿ / ﻿52.10667°N 13.70083°E﻿ / 52.10667; 13.70083Coordinates: 52°6′24″N 13°42′3″E﻿ / ﻿52.10667°N 13.70083°E﻿ / 52.10667; 13.70083",Soviet victory,"80,000
+
+
+79 tanks
+150 armored vehicles","280,000",,,,100,Battle of Halbe,Battle of Berlin,,https://en.wikipedia.org/wiki/Battle_of_Halbe,52.10667,13.70083,1945-04-01,1945-05-01
+183,1598,1598,0,1598,0,0,0,0,7700,15434,250,5152,0,250,10782,2798,Nazi Germany,Soviet Union Poland,,"1,598 killed.[3]","Poland: 4,902 killed[3]  2,798 missing[3]  10,532 wounded[3]  250 tanks[3] Soviet Union: unknown",,,Ferdinand Schörner Wilhelm Schmalz Hermann von Oppeln-Bronikowski,Ivan Konev Vladimir Kostylev Karol Świerczewski,,21–30 April 1945,"Bautzen, Germany and surrounding rural areas",German Victory [1][2],"50,000 300 tanks[3]  600 artillery pieces 497 AFV's","Polish Army: 90,000[3]  500 tanks[3]  Soviet Army: at least 20,000",,,,100,Battle of Bautzen (1945),Eastern Front,April 1945,https://en.wikipedia.org/wiki/Battle_of_Bautzen_(1945),,,1945-04-01,1945-04-01
+184,0,860000,860000,0,0,0,0,0,0,0,0,0,0,0,0,0,"Axis: Germany Hungary[1] Slovak Republic
+
+ POHG","Allies: Soviet Union Czechoslovakia Romania Poland
+
+
+ Russian Liberation Army",,"Some 860,000 captured; remainder killed, missing in action, or fled","49,348[5] 1,730[4] 887[4] 533[4][a]
+
+
+ 300",,,Ferdinand Schörner Lothar Rendulic,"Ivan Konev Rodion Malinovsky Andrey Yeryomenko Karel Klapálek Vasile Atanasiu Nicolae Dăscălescu Karol Świerczewski
+
+
+ Sergei Bunyachenko",,6–11 May 1945(5 days),"Prague, Czechoslovakia",Decisive Allied victory,"Army Group Centre:600,000–650,000[2]Army Group Ostmark:430,000[3] 9,370[1]","1,770,700[4] 139,500[4] 69,500[4] 48,400[4]
+
+
+ 18,000",,,,100,Prague Offensive,Eastern Front,,https://en.wikipedia.org/wiki/Prague_Offensive,,,1945-05-01,1945-05-01
+185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Yugoslav Partisans,Independent State of Croatia,,"10,000–12,000","1,750",,,Miloš ZekićMato Belić[1]Spaso Mičić[2] †,Petar Rajkovačić[3] †Ibrahim Pjanić[2]Ivan Čalušić[4]Avdaga Hasić[2],,19 April 1945 – 25 May 1945(1 month and 6 days),"Odžak, Independent State of Croatia (present day Bosnia and Herzegovina)45°00′N 18°16′E﻿ / ﻿45.00°N 18.26°E﻿ / 45.00; 18.26",Partisan pyrrhic victory,"35,000 soldiers","1,800 soldiers[6]",,,,100,Battle of Odzak,Eastern Front,19 April-25 May 1945,https://en.wikipedia.org/wiki/Battle_of_Odzak,45.0,18.26,1945-04-01,1945-05-01
