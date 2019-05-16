@@ -13,8 +13,8 @@ def nominatim_geocode(address, format='json', limit=1, **kwargs):
     Documentation: https://wiki.openstreetmap.org/wiki/Nominatim#Parameters
     '''
     params = {'q':address, 'format':format, 'limit':limit, **kwargs}
- 
-    response = requests.get(base_url, params=params)
+    headers = {'Accept-Language':'en'}
+    response = requests.get(base_url, params=params, headers=headers)
     response.raise_for_status() # will raise exception if status is unsuccessful
  
     sleep(1) # sleep 

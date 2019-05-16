@@ -38,9 +38,9 @@ def _parse_row(row, names=('allies', 'axis', 'third party')):
     '''
     cells = row.find_all('td', recursive=False)
     if len(cells) == 1:
-        return {'total':cells[0].get_text().strip()}
+        return {'total': cells[0].get_text(separator=" ").strip()}
 
-    return { name:cell.get_text().strip() for name, cell in zip(names, cells)}
+    return { name:cell.get_text(separator=" ").strip() for name, cell in zip(names, cells)}
     
 def _find_row_by_header(table, string):
     '''find a header row in the table,

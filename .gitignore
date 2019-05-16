@@ -8,3 +8,5 @@ __pycache__
 .nbgrader.log
 **.png
 pdf/*
+
+Chapter12/data/pubg/deaths/*.csv

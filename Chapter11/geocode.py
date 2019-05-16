@@ -1,12 +1,13 @@
 from csv import DictReader, DictWriter
 from time import sleep
-
+from functools import lru_cache
 import requests
 from tqdm import tqdm
 
  
 base_url = 'https://nominatim.openstreetmap.org/search?'
- 
+
+@lru_cache(maxsize=1000)
 def nominatim_geocode(address, format='json', limit=1, **kwargs):
     '''thin wrapper around nominatim API.
  
