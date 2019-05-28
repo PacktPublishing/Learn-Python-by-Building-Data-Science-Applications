@@ -1,0 +1,8 @@
+md5: a11561fd906015a5a58be9c8c242354c
+wdir: ../..
+outs:
+- md5: 2a02ceed9db7232315ba17c635741724
+  path: Chapter14/data/EF_battles_corrected.csv
+  cache: true
+  metric: false
+  persist: false
