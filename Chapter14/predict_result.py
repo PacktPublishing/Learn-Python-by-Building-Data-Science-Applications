@@ -111,6 +111,7 @@ def main():
 
     y = data['result_num']
     X = pd.concat([data[cols], _add_leaders(data, N=2)], axis=1)
+    # X = data[cols]  # pd.concat([data[cols], _add_leaders(data, N=2)], axis=1)
 
     param_dist = {"max_depth": sp_randint(5, 20),
               "max_features": sp_randint(1, X.shape[1]),
