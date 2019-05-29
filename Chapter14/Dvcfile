@@ -1,4 +1,4 @@
-md5: e29ba9fb2d158167cff816569dbcb554
+md5: 5a3b91215209f4cb66b4b06d62c269cc
 cmd: python ./predict_result.py
 wdir: .
 deps:
@@ -9,6 +9,6 @@ deps:
 outs:
 - md5: 406aff519b593c9e15ceede8dabe92fe
   path: data/metrics.json
-  cache: false
+  cache: true
   metric: true
   persist: false
