@@ -1,13 +1,13 @@
-md5: 12353493c31991837896c988e831803b
+md5: e29ba9fb2d158167cff816569dbcb554
 cmd: python ./predict_result.py
 wdir: .
 deps:
-- md5: 9c48660d1d2fdf56defb3e370b7f2d0a
+- md5: ce9c22e5d790c29b090ea81514f4f9a7
   path: predict_result.py
 - md5: 2a02ceed9db7232315ba17c635741724
   path: data/EF_battles_corrected.csv
 outs:
-- md5: be399541f41161bdb425f102b74ddb9b
+- md5: 406aff519b593c9e15ceede8dabe92fe
   path: data/metrics.json
   cache: false
   metric: true
