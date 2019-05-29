@@ -73,7 +73,7 @@ def _hyperopt(model, X, y, param_dist):
     return rs
 
 
-def _generate_metrics(rs, X, y):
+def _generate_metrics_v1(rs, X, y):
 
     y_pred = rs.best_estimator_.predict(X)
 
@@ -81,6 +81,18 @@ def _generate_metrics(rs, X, y):
         'accuracy': rs.best_score_,
         'params': rs.best_params_,
         'model': rs.best_estimator_.__repr__(),
+        'report': classification_report(y, y_pred)
+    }
+
+
+def _generate_metrics_v2(rs, X, y):
+
+    y_pred = rs.best_estimator_.predict(X)
+
+    return {
+        'accuracy': rs.best_score_,
+        'params': rs.best_params_,
+        'model': rs.best_estimator_.__repr__().replace('\n                       ', ' '),
         'report': classification_report(y, y_pred)
     }
 
@@ -107,7 +119,7 @@ def main():
 
     rs = _hyperopt(model, X, y, param_dist)
 
-    metrics = _generate_metrics(rs, X, y)
+    metrics = _generate_metrics_v2(rs, X, y)
     out_path = str( this_folder / 'data/metrics.json' )
     with open(out_path, 'w') as f:
         json.dump(metrics, f)
