@@ -7,3 +7,6 @@ __pycache__
 .DS_Store
 .nbgrader.log
 **.png
+pdf/*
+
+Chapter12/data/pubg/deaths/*.csv
