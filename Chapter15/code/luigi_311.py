@@ -3,6 +3,7 @@ from pathlib import Path
 import requests as rq
 import os
 import pandas as pd
+from datetime import timedelta, date
 NYCOD = os.environ.get('NYCOPENDATA', {'app':None})['app']
 
 folder = Path(__file__).parents[1] / 'data' 
@@ -27,9 +28,9 @@ def _get_data(resource, time_col, date, offset=0):
     return data
 
 
-class CollectRestaurants(luigi.Task):
+class Collect311(luigi.Task):
     time_col = 'Created Date'
-    date = luigi.DateParameter()
+    date = luigi.DateParameter(default=date.today())
     resource = 'fhrw-4uyv'
 
     def output(self):
@@ -42,5 +43,49 @@ class CollectRestaurants(luigi.Task):
         
         self.output().makedirs()
         df.to_csv(self.output().path)
+        
+        
+class Top10ctypes(luigi.Task):
+    date = luigi.DateParameter(default=date.today())
+    start = luigi.DateParameter(default='2019-01-01')
+    
+    
+    def requires(self):
+        # data for the last {window} days
+        delta = self.date - self.start
+        dates = [self.start + timedelta(days=d) for d in range(delta.days + 1)]
+        return { d.strftime('%Y-%m-%d'): Collect311(date=(d)) for d in dates }
+    
+    def output(self):
+        return {'report':luigi.LocalTarget(f'{folder}/311/top10.csv'),
+                'flag': luigi.LocalTarget(f'{folder}/311/_flags/{self.date:%Y/%m/%d}.flag')}
+    
+    @staticmethod
+    def _analize(df):
+        stats = df['complaint_type'].value_counts().head(10).to_dict()
+        stats['count'] = len(df)
+
+        return stats
+        
+    def run(self):
+
+        data = {}
+        for k, v in self.input().items():
+            df = pd.read_csv(v.path)
+            data[k] = self._analize(df)
+        
+        data = pd.DataFrame(data)
+
+        data.to_csv(self.output()['report'])
+
+        with self.output()['flag'].open('w') as f:
+            f.write('!')
+    
+    def complete(self):
+        return self.output()['flag'].exists()
+
+
+        
+                
 
     
