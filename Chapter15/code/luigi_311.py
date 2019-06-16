@@ -3,7 +3,9 @@ from pathlib import Path
 import requests as rq
 import os
 import pandas as pd
-from datetime import timedelta, date
+from datetime import timedelta, date, datetime
+from sqlalchemy import String
+from luigi.contrib import sqla
 NYCOD = os.environ.get('NYCOPENDATA', {'app':None})['app']
 
 folder = Path(__file__).parents[1] / 'data' 
@@ -44,11 +46,11 @@ class Collect311(luigi.Task):
         self.output().makedirs()
         df.to_csv(self.output().path)
         
-        
-class Top10ctypes(luigi.Task):
-    date = luigi.DateParameter(default=date.today())
-    start = luigi.DateParameter(default='2019-01-01')
     
+class Top10(luigi.Task):
+    date = luigi.DateParameter(default=date.today())
+    start = luigi.DateParameter(default=datetime(2019,1,1))
+    N = luigi.NumericalParameter(default=15, min_value=1, max_value=100, var_type=int)
     
     def requires(self):
         # data for the last {window} days
@@ -57,26 +59,32 @@ class Top10ctypes(luigi.Task):
         return { d.strftime('%Y-%m-%d'): Collect311(date=(d)) for d in dates }
     
     def output(self):
-        return {'report':luigi.LocalTarget(f'{folder}/311/top10.csv'),
-                'flag': luigi.LocalTarget(f'{folder}/311/_flags/{self.date:%Y/%m/%d}.flag')}
+        return {'report':luigi.LocalTarget(f'{folder}/311/top{self.N}.csv'),
+                'flag': luigi.LocalTarget(f'{folder}/311/_flags/{self.date:%Y/%m/%d}_{self.N}.flag')}
     
     @staticmethod
-    def _analize(df):
-        stats = df['complaint_type'].value_counts().head(10).to_dict()
-        stats['count'] = len(df)
+    def _analize(df, N=20):
+        stats = df['complaint_type'].value_counts().head(N).to_dict()
+        stats['total_complaints'] = len(df)
 
         return stats
         
     def run(self):
 
-        data = {}
+        data = []
         for k, v in self.input().items():
-            df = pd.read_csv(v.path)
-            data[k] = self._analize(df)
+            try:
+                df = pd.read_csv(v.path)
+                stats = self._analize(df, N=self.N)
+                stats['date'] = k
+                data.append(stats)
+            except:
+                pass
         
         data = pd.DataFrame(data)
 
-        data.to_csv(self.output()['report'])
+        # self.output()['report'].makedirs()
+        data.to_csv(self.output()['report'].path)
 
         with self.output()['flag'].open('w') as f:
             f.write('!')
