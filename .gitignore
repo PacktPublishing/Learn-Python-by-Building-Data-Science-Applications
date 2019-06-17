@@ -10,3 +10,4 @@ __pycache__
 pdf/*
 
 Chapter12/data/pubg/deaths/*.csv
+Chapter15/data/*
