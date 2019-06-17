@@ -4,8 +4,7 @@ import requests as rq
 import os
 import pandas as pd
 from datetime import timedelta, date, datetime
-from sqlalchemy import String
-from luigi.contrib import sqla
+from copy import copy
 NYCOD = os.environ.get('NYCOPENDATA', {'app':None})['app']
 
 folder = Path(__file__).parents[1] / 'data' 
@@ -50,7 +49,7 @@ class Collect311(luigi.Task):
 class Top10(luigi.Task):
     date = luigi.DateParameter(default=date.today())
     start = luigi.DateParameter(default=datetime(2019,1,1))
-    N = luigi.NumericalParameter(default=15, min_value=1, max_value=100, var_type=int)
+    N = luigi.NumericalParameter(default=5, min_value=1, max_value=100, var_type=int)
     
     def requires(self):
         # data for the last {window} days
@@ -63,10 +62,29 @@ class Top10(luigi.Task):
                 'flag': luigi.LocalTarget(f'{folder}/311/_flags/{self.date:%Y/%m/%d}_{self.N}.flag')}
     
     @staticmethod
-    def _analize(df, N=20):
-        stats = df['complaint_type'].value_counts().head(N).to_dict()
-        stats['total_complaints'] = len(df)
+    def _analize(df, date, N=10):
 
+        dict_ = {'boro':'NYC', 'date':date, 'metric':'complaints', 'value': len(df)}
+        stats = [dict_,]
+            
+        top_N =  df["complaint_type"].value_counts().nlargest(N).to_dict()
+        for k, v in top_N.items():
+            dict_['metric'] = k
+            dict_['balue']: v
+            stats.append(copy(dict_))
+
+        for boro, group in df.groupby('borough'):
+            dict_['boro'] = boro
+            dict_['metric'] = 'complaints'
+            dict_['value'] = len(group)
+            stats.append(copy(dict_))
+
+            top_N =  group["complaint_type"].value_counts().nlargest(N).to_dict()
+            for k, v in top_N.items():
+                dict_['metric'] = k
+                dict_['balue']: v
+                stats.append(copy(dict_))
+        
         return stats
         
     def run(self):
@@ -75,13 +93,15 @@ class Top10(luigi.Task):
         for k, v in self.input().items():
             try:
                 df = pd.read_csv(v.path)
-                stats = self._analize(df, N=self.N)
-                stats['date'] = k
-                data.append(stats)
-            except:
+                stats = self._analize(df, date=k, N=self.N)
+                data.extend(stats)
+            except Exception as e:
+                # print(e)
                 pass
         
         data = pd.DataFrame(data)
+        print(data.columns)
+        data = data.set_index('date')
 
         # self.output()['report'].makedirs()
         data.to_csv(self.output()['report'].path)
