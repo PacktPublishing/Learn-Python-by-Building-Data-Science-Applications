@@ -5,6 +5,7 @@ import pandas as pd
 from enum import Enum
 import json
 import joblib
+import webpage
 from ml import TimeTransformer
 import logging
 logger = logging.getLogger('LOGGER')
@@ -32,12 +33,15 @@ class naive_model:
         return self.data.get(type_, None)
 
 
+model = naive_model()
+
 app = FastAPI(
     title="311 toy service api",
     description="311 toy service API for Packt Python 3.7 book",
     version="0.1.0"
 )
-model = naive_model()
+
+
 
 @app.get("/complaints/all/{complaint_type}/time")
 def complaints(complaint_type: str):
@@ -72,16 +76,9 @@ def enter_complaint(body: Complaint):
 
 
 clf = joblib.load('model.joblib')
-
-# class _model:
-#     model_ = None
-
-#     def __init__(self):
-#         path='./model.pkl'
-#         self.model_ = joblib.load(path)
     
 
-@app.get('/predict/{complaint_type}')
+@app.get('/predict/{complaint_type}', tags=['predict'])
 def predict_time(complaint_type:ComplaintType, latitude:float, longitude:float, created_date:datetime):
 
     obj = pd.DataFrame([{'complaint_type':complaint_type.value,
@@ -93,3 +90,22 @@ def predict_time(complaint_type:ComplaintType, latitude:float, longitude:float, 
     predicted = clf.predict(obj)
     logger.info(predicted)
     return {'estimated_time': predicted[0]}
+
+
+
+@app.get('/predict_async/{complaint_type}', tags=['predict'])
+def predict_time_async(complaint_type:ComplaintType, latitude:float, longitude:float, created_date:datetime):
+
+    obj = pd.DataFrame([{'complaint_type':complaint_type.value,
+                         'latitude':latitude, 'longitude':longitude,
+                         'created_date':created_date},])
+    obj = obj[['complaint_type', 'latitude','longitude', 'created_date']]
+
+
+    predicted = clf.predict(obj)
+    logger.info(predicted)
+    return {'estimated_time': predicted[0]}
+
+
+app.include_router(webpage.router, prefix='/dashboard')
+
