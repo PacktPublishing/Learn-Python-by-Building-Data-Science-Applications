@@ -84,7 +84,6 @@ def predict_time(complaint_type:ComplaintType, latitude:float, longitude:float, 
     obj = pd.DataFrame([{'complaint_type':complaint_type.value,
                          'latitude':latitude, 'longitude':longitude,
                          'created_date':created_date},])
-    obj = obj[['complaint_type', 'latitude','longitude', 'created_date']]
 
 
     predicted = clf.predict(obj)

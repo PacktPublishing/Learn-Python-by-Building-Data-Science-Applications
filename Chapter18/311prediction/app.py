@@ -1,16 +1,9 @@
 from chalice import Chalice, Response
-import json
+import json, urllib.request
+url = 'https://raw.githubusercontent.com/PacktPublishing/Python-Programming-Projects-Learn-Python-3.7-by-building-applications/master/Chapter18/311prediction/model.json'
 
-with open('./model.json', 'r') as f:
-    model = json.load(f)
-
-# import pandas as pd
-# import joblib
-# from ml import TimeTransformer
-# clf = joblib.load(path_to_model)
-
-# cols = ['complaint_type', 'latitude', 'longitude', 'created_date']
-# obj = pd.DataFrame(columns=cols, index=[0])
+obj = urllib.request.urlopen(url).read()
+model = json.loads(obj)
 
 app = Chalice(app_name='311prediction')
 
