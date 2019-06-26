@@ -1,4 +1,8 @@
 from chalice import Chalice, Response
+import json
+
+with open('./model.json', 'r') as f:
+    model = json.load(f)
 
 # import pandas as pd
 # import joblib
@@ -13,34 +17,21 @@ app = Chalice(app_name='311prediction')
 
 
 @app.route('/predict/{complaint_type}', methods=['GET'])
-def predict(complaint_type) -> Response:
-    return Response(status_code=200,
-                    headers={'Content-Type': 'application/json'},
-                    body={'status': 'success',
-                          'complaint_type': complaint_type,
-                          'estimated_time': 38})
-    # try:
-    #     request_body = app.current_request.json_body
-    #     assert all(col in request_body for col in cols)
+def predict(complaint_type:str) -> Response:
+    
+    if complaint_type in model:
+        return Response(status_code=200,
+                        headers={'Content-Type': 'application/json'},
+                        body={'status': 'success',
+                              'complaint_type': complaint_type,
+                              'estimated_time': model[complaint_type]})
+    else:
+        return Response(status_code=400,
+                        headers={'Content-Type': 'application/json'},
+                        body={'status': 'failure',
+                              'complaint_type': complaint_type,
+                              'estimated_time': model['overal_median']})
 
-    #     for col in cols:
-    #         obj.loc[0, col] = request_body.get(col)
-        
-    #     predicted = clf.predict(obj)
-        
-    #     return Response(status_code=200,
-    #                     headers={'Content-Type': 'application/json'},
-    #                     body={'status': 'success',
-    #                           'estimated_time': predicted[0]})
-    # except Exception as e:
-    #     return Response(status_code=400,
-    #                     headers={'Content-Type': 'application/json'},
-    #                     body={'status': 'failure',
-    #                           'message': e.msg}
-    #                     ),
-
-        
-                                  
 
 
 # The view function above will return {"hello": "world"}
