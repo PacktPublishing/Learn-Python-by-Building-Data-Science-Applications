@@ -3,7 +3,6 @@ import pickle
 import boto3
 import numpy as np
 from chalice import Chalice, Response
-from datetime import datetime
 
 from ml import TimeTransformer
 BUCKET, KEY = 'philipp-packt', 'model.pkl'
@@ -19,17 +18,7 @@ def _load_pickle(bucket, key):
 model = _load_pickle(BUCKET, KEY)
 
 app = Chalice(app_name='311predictions-v2')
-# singleton = pd.DataFrame([{'complaint_type':'dummy', 
-#                            'latitude':1.1111, 
-#                            'longitude':1.1111,
-#                            'created_date':pd.to_datetime('2019-01-01')}])
 singleton = np.empty(shape=(1, 4), dtype='object')
-
-mapping = {
-    'lon': 'longitude',
-    'lat': 'latitude',
-    'date': 'created_date'
-}
 
 dtypes = {
     'lon': float,
@@ -42,7 +31,7 @@ def index(complaint_type:str):
     app.log.debug(app.current_request.query_params)
     singleton[0, 0] = complaint_type
 
-    for i, col in enumerate(mapping.keys(), 1):
+    for i, col in enumerate(dtypes.keys(), 1):
         singleton[0, i] = dtypes[col](app.current_request.query_params.get(col, np.nan))
 
     app.log.debug(singleton.astype(str).tolist())
