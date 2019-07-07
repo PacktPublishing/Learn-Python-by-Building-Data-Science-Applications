@@ -15,7 +15,7 @@ this_folder = Path(__file__).parent
 
 
 def prepare_model():
-    return DecisionTreeClassifier(random_state=2019, max_depth=10)
+    return DecisionTreeClassifier(random_state=2019)
 
 def prepare_random_forest():
     return RandomForestClassifier(random_state=2019)
@@ -106,8 +106,8 @@ def _generate_metrics_v2(rs, X, y):
 
 def main():
     data = _impute(prepare_data())
-    # model = prepare_model()
-    model = prepare_random_forest()
+    model = prepare_model()
+    # model = prepare_random_forest()
 
     features = feature_engineering(data)
 
@@ -127,13 +127,11 @@ def main():
 
 
     # for random_forest, remove othervise
-    param_dist['n_estimators'] = sp_randint(50, 2000)
+    # param_dist['n_estimators'] = sp_randint(50, 2000)
 
     rs = _hyperopt(model, X, y, param_dist)
 
     metrics = _generate_metrics_v2(rs, X, y)
-    print(X.columns.tolist())
-    print(metrics['accuracy'])
     
     out_path = str( this_folder / 'data/metrics.json' )
     with open(out_path, 'w') as f:
