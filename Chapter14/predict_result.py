@@ -8,6 +8,7 @@ from scipy.stats import randint as sp_randint
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.tree import DecisionTreeClassifier  # , export_graphviz
+from sklearn.ensemble import RandomForestClassifier
 
 this_folder = Path(__file__).parent
 
@@ -15,6 +16,10 @@ this_folder = Path(__file__).parent
 
 def prepare_model():
     return DecisionTreeClassifier(random_state=2019, max_depth=10)
+
+def prepare_random_forest():
+    return RandomForestClassifier(random_state=2019)
+
 
 def prepare_data():
     path = str(this_folder / 'data/EF_battles_corrected.csv')
@@ -100,7 +105,8 @@ def _generate_metrics_v2(rs, X, y):
 
 def main():
     data = _impute(prepare_data())
-    model = prepare_model()
+    # model = prepare_model()
+    model = prepare_random_forest()
 
     features = feature_engineering(data)
 
@@ -117,6 +123,10 @@ def main():
               "max_features": sp_randint(1, X.shape[1]),
               "min_samples_split": sp_randint(2, 11),
               "criterion": ["gini", "entropy"]}
+
+
+    # for random_forest
+    param_dist['n_estimators'] = sp_randint(50, 2000)
 
     rs = _hyperopt(model, X, y, param_dist)
 

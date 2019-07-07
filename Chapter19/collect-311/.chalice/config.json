@@ -1,0 +1,12 @@
+{
+  "version": "2.0",
+  "app_name": "collect-311",
+  "environment_variables": {
+    "NYCOPENDATA":"{{NYCOD}}"
+  },
+  "stages": {
+    "dev": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
