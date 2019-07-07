@@ -57,6 +57,8 @@ def feature_engineering(data):
     for tp in 'infantry', 'planes', 'tanks', 'guns':
         data[f'{tp}_diff'] = data[f'allies_{tp}'] - data[f'axis_{tp}']
 
+    return data[['duration', 'infantry_ratio', 'infantry_diff', 'planes_diff', 'tanks_diff', 'guns_diff']]
+
 
 def _add_leaders(data, N=2):
     axis_pop = _generate_binary_most_common(data['axis_leaders'].str.split(','), N=N)
@@ -91,7 +93,6 @@ def _generate_metrics_v1(rs, X, y):
 
 
 def _generate_metrics_v2(rs, X, y):
-
     y_pred = rs.best_estimator_.predict(X)
 
     return {
@@ -112,25 +113,28 @@ def main():
 
     cols = [
     'allies_infantry', 'axis_infantry', 'allies_tanks', 'axis_tanks', 
-    'allies_planes', 'axis_planes', 'duration'
+    'allies_planes', 'axis_planes'
     ]
 
     y = data['result_num']
-    X = pd.concat([data[cols], _add_leaders(data, N=2)], axis=1)
+    X = pd.concat([data[cols], features, _add_leaders(data, N=2)], axis=1)
     # X = data[cols]
 
-    param_dist = {"max_depth": sp_randint(5, 20),
+    param_dist = {"max_depth": sp_randint(5, 25),
               "max_features": sp_randint(1, X.shape[1]),
               "min_samples_split": sp_randint(2, 11),
               "criterion": ["gini", "entropy"]}
 
 
-    # for random_forest
+    # for random_forest, remove othervise
     param_dist['n_estimators'] = sp_randint(50, 2000)
 
     rs = _hyperopt(model, X, y, param_dist)
 
     metrics = _generate_metrics_v2(rs, X, y)
+    print(X.columns.tolist())
+    print(metrics['accuracy'])
+    
     out_path = str( this_folder / 'data/metrics.json' )
     with open(out_path, 'w') as f:
         json.dump(metrics, f)
