@@ -4,12 +4,14 @@ import requests as rq
 import os
 import pandas as pd
 from datetime import timedelta, date, datetime
+from luigi.contrib import sqla
+import sqlalchemy
 from copy import copy
+from sqlite_schemas import COLUMNS_RAW, TOP
 
 NYCOD = os.environ.get("NYCOPENDATA", {"app": None})["app"]
-
 folder = Path(__file__).parents[1] / "data"
-
+SQLITE_STRING = "sqlite:///../data/311.db"
 
 def _get_data(resource, time_col, date, offset=0):
     """collect data from NYC open data
@@ -24,39 +26,43 @@ def _get_data(resource, time_col, date, offset=0):
 
     data = r.json()
     if len(data) == 50_000:
-        offset2 = offset + 50000
-        data2 = _get_data(resource, time_col, date, offset=offset2)
+        data2 = _get_data(resource, time_col, date, offset=(offset + 50_000))
         data.extend(data2)
 
     return data
 
 
-class Collect311(luigi.Task):
+class Collect311_SQLITE(sqla.CopyToTable):
     time_col = "Created Date"
     date = luigi.DateParameter(default=date.today())
     resource = "fhrw-4uyv"
 
-    def output(self):
-        path = f"{folder}/311/{self.date:%Y/%m/%d}.csv"
-        return luigi.LocalTarget(path)
+    columns = COLUMNS_RAW
+    connection_string = SQLITE_STRING  # SQLite database as a file
+    table = "raw"  # name of the table to store data
 
-    def run(self):
+
+    def rows(self):
         data = _get_data(self.resource, self.time_col, self.date, offset=0)
-        df = pd.DataFrame(data)
+        
+        df =  pd.DataFrame(data).astype(str) #.drop('location', axis=1)
+        df['unique_key'] = df['unique_key'].astype(int)
 
-        self.output().makedirs()
-        df.to_csv(self.output().path)
+        for row in df.to_dict('split')['data']:
+            yield row
 
 
-class Top10(luigi.Task):
+
+class Top10_SQLITE(sqla.CopyToTable):
     date = luigi.DateParameter(default=date.today())
-    N = luigi.NumericalParameter(default=10, min_value=1, max_value=100, var_type=int)
+    N = 10 #luigi.NumericalParameter(default=5, min_value=1, max_value=100, var_type=int)
+    
+    columns = TOP
+    connection_string = SQLITE_STRING  # SQLite database as a file
+    table = "top"  # name of the table to store data
 
     def requires(self):
-        return Collect311(date=self.date)
-
-    def output(self):
-        return luigi.LocalTarget(f"{folder}/311/top{self.N}.csv")
+        return Collect311_SQLITE(date=self.date)
 
     @staticmethod
     def _analize(df, date, N=10):
@@ -67,7 +73,7 @@ class Top10(luigi.Task):
         top_N = df["complaint_type"].value_counts().nlargest(N).to_dict()
         for k, v in top_N.items():
             dict_["metric"] = k
-            dict_["balue"]: v
+            dict_["value"]: v
             stats.append(copy(dict_))
 
         for boro, group in df.groupby("borough"):
@@ -79,14 +85,20 @@ class Top10(luigi.Task):
             top_N = group["complaint_type"].value_counts().nlargest(N).to_dict()
             for k, v in top_N.items():
                 dict_["metric"] = k
-                dict_["balue"]: v
+                dict_["value"]: v
                 stats.append(copy(dict_))
 
         return stats
 
-    def run(self):
-        df = pd.read_csv(self.input().path)
+    def rows(self):
+        con = sqlalchemy.create_engine(self.connection_string)
         
-        data = pd.DataFrame(self._analize(df, date=self.date, N=self.N)).set_index("date")
-        data.to_csv(self.output().path)
+        
+        Q = f"SELECT borough, complaint_type FROM raw WHERE closed_date BETWEEN '{self.date:%Y-%m-%d}' AND '{self.date:%Y-%m-%d} 23:59:59';"
+        data = pd.read_sql_query(Q, con)
+        for row in self._analize(data, date=date, N=self.N):
+            yield row
+
+
+
 
