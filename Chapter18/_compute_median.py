@@ -3,7 +3,7 @@ from glob import glob
 import json
 
 
-def _read_all_data(root_path="../Chapter15/data/311/2019/06"):
+def _read_all_data(root_path="../Chapter16/data/311/2019/06"):
     files = glob(root_path + "/**.csv")
     datas = []
     for file in files:
@@ -31,6 +31,7 @@ def _calculate_medians(data):
     )
 
     tp = data.groupby("complaint_type")["spent"].median()
+    tp.index = tp.index.str.lower()
     tp = tp[pd.notnull(tp)].round(2).to_dict()
 
     with open("./model.json", "w") as f:

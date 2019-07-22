@@ -54,7 +54,10 @@ class TimeTransformer(BaseEstimator):
 
         elif isinstance(X, pd.DataFrame):
             for col in self.cols:
-                dates = X[col]
+                try:
+                    dates = X[col]
+                except Exception as e:
+                    raise Exception(X.columns, e)
                 X = X.drop(col, axis=1)
                 X[f"{col}_dow"] = dates.dt.dayofweek
                 X[f"{col}_doy"] = dates.dt.dayofyear

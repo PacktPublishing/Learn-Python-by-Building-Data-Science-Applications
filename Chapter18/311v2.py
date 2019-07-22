@@ -58,7 +58,7 @@ def complaints(complaint_type: ComplaintType):
     if complaint_type == ComplaintType.other:
         ct = "noise"
     else:
-        ct = f"noise - " + complaint_type.value
+        ct = f"noise - {complaint_type.value}" 
 
     return {
         "complaint_type": complaint_type,
@@ -99,11 +99,14 @@ def predict_time(
                 "latitude": latitude,
                 "longitude": longitude,
                 "created_date": created_date,
-            }
+            },
         ]
     )
 
-    predicted = clf.predict(obj)
+    logger.info(obj.dtypes.to_string())
+    logger.info(obj.to_string())
+
+    predicted = clf.predict(obj[['complaint_type', 'latitude', 'longitude','created_date']])
     logger.info(predicted)
     return {"estimated_time": predicted[0]}
 
