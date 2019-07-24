@@ -48,7 +48,7 @@ class Collect311_SQLITE(sqla.CopyToTable):
         df =  pd.DataFrame(data).astype(str) #.drop('location', axis=1)
         df['unique_key'] = df['unique_key'].astype(int)
 
-        for row in df.to_dict('split')['data']:
+        for row in df.values.tolist():
             yield row
 
 

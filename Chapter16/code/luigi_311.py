@@ -86,7 +86,9 @@ class Top10(luigi.Task):
 
     def run(self):
         df = pd.read_csv(self.input().path)
-        
-        data = pd.DataFrame(self._analize(df, date=self.date, N=self.N)).set_index("date")
+
+        data = pd.DataFrame(self._analize(df, date=self.date, N=self.N)).set_index(
+            "date"
+        )
         data.to_csv(self.output().path)
 
