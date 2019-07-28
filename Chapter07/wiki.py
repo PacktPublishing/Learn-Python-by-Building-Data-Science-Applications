@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import warnings
 
 
-def _default_collect(url):
+def get_dom(url):
     """returns document from url as a BS DOM"""
     response = rq.get(url)
     response.raise_for_status()
@@ -87,7 +87,7 @@ def parse_battle_page(url):
     """ main function to parse battle urls from wikipedia
     """
     try:
-        dom = _default_collect(url)  # dom
+        dom = get_dom(url)  # dom
     except Exception as e:
         warnings.warn(str(e))
         return {}

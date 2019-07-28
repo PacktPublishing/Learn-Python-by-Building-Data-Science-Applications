@@ -1,6 +1,7 @@
 from sqlalchemy import String, Integer, Text
 
 COLUMNS_RAW = [([el, String(64)], {}) for el in  [
+    "unique_key"
     "address_type",
     "agency",
     "agency_name",
@@ -37,11 +38,11 @@ COLUMNS_RAW = [([el, String(64)], {}) for el in  [
     "taxi_pick_up_location",
     "x_coordinate_state_plane",
     "y_coordinate_state_plane",
-    "location"
+    "location",
 ]
 ]
 
-COLUMNS_RAW.append((["unique_key", String(64)], {"primary_key": True}))
+# COLUMNS_RAW.append((["unique_key", String(64)], {"primary_key": True}))
 for col in "resolution_action_updated_date", "resolution_description":
     COLUMNS_RAW.append(([col, Text()], {}))
 

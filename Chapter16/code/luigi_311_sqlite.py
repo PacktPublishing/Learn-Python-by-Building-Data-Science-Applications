@@ -45,11 +45,14 @@ class Collect311_SQLITE(sqla.CopyToTable):
     def rows(self):
         data = _get_data(self.resource, self.time_col, self.date, offset=0)
         
-        df =  pd.DataFrame(data).astype(str) #.drop('location', axis=1)
-        df['unique_key'] = df['unique_key'].astype(int)
+        if len(data) > 0:
+            df =  pd.DataFrame(data).astype(str) #.drop('location', axis=1)
+            df = df.loc[:, [el[0][0] for el in self.columns]] # add column if missing
+            
 
-        for row in df.to_dict('split')['data']:
-            yield row
+            for row in df.values.tolist():
+                yield row
+        
 
 
 
