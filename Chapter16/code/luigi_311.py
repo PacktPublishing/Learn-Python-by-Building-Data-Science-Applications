@@ -6,7 +6,9 @@ import pandas as pd
 from datetime import timedelta, date, datetime
 from copy import copy
 
-NYCOD = os.environ.get("NYCOPENDATA", {"app": None})["app"]
+# NYCOD = os.environ.get("NYCOPENDATA", {"app": None})["app"]
+# Socrate allows data retrieval without a dedicated token.
+# Still, for a more stable performance, it makes sense to get your privat token
 
 folder = Path(__file__).parents[1] / "data"
 
@@ -18,8 +20,8 @@ def _get_data(resource, time_col, date, offset=0):
     Q = f"where=created_date between '{date}' AND '{date}T23:59:59.000'"
     url = f"https://data.cityofnewyork.us/resource/{resource}.json?$limit=50000&$offset={offset}&${Q}"
 
-    headers = {"X-App-Token": NYCOD} if NYCOD else None
-    r = rq.get(url, headers=headers)
+    # headers = {"X-App-Token": NYCOD} if NYCOD else None
+    r = rq.get(url) #, headers=headers)
     r.raise_for_status()
 
     data = r.json()
