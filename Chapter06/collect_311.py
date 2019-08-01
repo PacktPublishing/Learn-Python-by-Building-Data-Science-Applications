@@ -2,7 +2,6 @@ import requests as rq
 from datetime import date
 import json
 
-NYCOD = 'YOUR API KEY HERE'
 folder = '.'
 
 time_col = "Created Date"
@@ -21,8 +20,7 @@ def _get_data(resource:str, time_col:str, date:date, offset:int=0):
     Q = f"where=created_date between '{date}' AND '{date}T23:59:59.000'"
     url = f"https://data.cityofnewyork.us/resource/{resource}.json?$limit=50000&$offset={offset}&${Q}"
 
-    headers = {"X-App-Token": NYCOD} if NYCOD else None
-    r = rq.get(url, headers=headers)
+    r = rq.get(url)
     r.raise_for_status()
 
     data = r.json()
