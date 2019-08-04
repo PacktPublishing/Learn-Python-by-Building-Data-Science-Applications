@@ -1,6 +1,6 @@
 from chalice import Chalice, Response
 import json, urllib.request
-url = 'https://raw.githubusercontent.com/PacktPublishing/Python-Programming-Projects-Learn-Python-3.7-by-building-applications/master/Chapter18/311prediction/model.json'
+url = 'https://raw.githubusercontent.com/PacktPublishing/Python-Programming-Projects-Learn-Python-3.7-by-building-applications/master/Chapter18/data/model.json'
 
 obj = urllib.request.urlopen(url).read()
 model = json.loads(obj)
@@ -23,8 +23,8 @@ def predict(complaint_type:str) -> Response:
         return Response(status_code=400,
                         headers={'Content-Type': 'application/json'},
                         body={'status': 'failure',
-                              'complaint_type': complaint_type,
-                              'estimated_time': model['overal_median']})
+                              'problem': 'Complaint type is not in database',
+                              'complaint_type': complaint_type})
 
 
 @app.schedule('rate(1 hour)')

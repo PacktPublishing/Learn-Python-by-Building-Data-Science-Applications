@@ -1,11 +1,10 @@
 from chalice import Chalice
 import requests as rq
 import boto3
-import os
 import json
-from datetime import date, timedelta
-NYCOD = os.environ.get('NYCOPENDATA', None)
-BUCKET, KEY = 'philipp-packt', '311data'
+from datetime import date, timedelta, datetime
+from statistics import median
+BUCKET, FOLDER, MEDIANS_FOLDER = 'philipp-packt', '311/raw_data', '311/'
 resource = 'fhrw-4uyv'
 time_col = 'Created Date'
 
@@ -23,9 +22,7 @@ def _get_data(resource, time_col, date, offset=0):
           
     Q = f"where=created_date between '{date:%Y-%m-%d}' AND '{date:%Y-%m-%d}T23:59:59.000'"
     url = f'https://data.cityofnewyork.us/resource/{resource}.json?$limit=50000&$offset={offset}&${Q}'
-
-    headers = {"X-App-Token": NYCOD} if NYCOD else None
-    r = rq.get(url, headers=headers)
+    r = rq.get(url)
     r.raise_for_status()
 
     data = r.json()
@@ -36,6 +33,7 @@ def _get_data(resource, time_col, date, offset=0):
 
     return data
 
+
 app = Chalice(app_name='collect-311')
 
 
@@ -43,4 +41,44 @@ app = Chalice(app_name='collect-311')
 def get_data(event):
     yesterday = date.today() - timedelta(days=1)
     data = _get_data(resource, time_col, yesterday, offset=0)
-    _upload_json(data, f'{yesterday:%Y-%m-%d}.json', bucket=BUCKET, key=KEY)
+    _upload_json(data, f'{yesterday:%Y-%m-%d}.json', bucket=BUCKET, key=FOLDER)
+
+
+def _is_dataset(key):
+    '''check if triggered by data we're interested in '''
+    return ('311data' in key) and key.endswith('.json')
+
+
+def _calc_medians(data):
+
+    results = {}
+    for record in data:
+        ct = record["complaint_type"]
+        if ct not in results:
+            results[ct] = []
+        
+        spent = datetime.strptime(record['closed_date'], '%Y-%m-%d %H:%M:%S') - datetime.strptime(record['created_date'], '%Y-%m-%d %H:%M:%S')
+        spent = spent.seconds // 3600 # hours
+        results[ct].append(spent)
+        
+    return {k : median(v) for k, v in results.items()}
+
+
+def _get_raw_data(bucket, key):
+    r = rq.get(f'https://{bucket}.s3.amazonaws.com/{key}')
+    r.raise_for_status()
+    return r.json()
+
+
+@app.on_s3_event(bucket=BUCKET,
+                 events=['s3:ObjectCreated:*'])
+def compute_medians(event):
+    if _is_dataset(event.key):
+        data = _get_raw_data(bucket=event.bucket, key=event.key)
+        medians = _calc_medians(data)
+        _upload_json(medians, 'medians.json', bucket=BUCKET, key=MEDIANS_FOLDER)
+
+
+
+    
+
