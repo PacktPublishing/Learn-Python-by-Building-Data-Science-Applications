@@ -1,19 +1,27 @@
-name: root
+name: packt
 channels:
+  - anaconda
   - conda-forge
 dependencies:
-  - python=3.7.2
-  - tqdm
-  - numpy
-  - matplotlib
-  - pandas
-  - geopandas
-  - scikit-learn
-  - scipy
-  - requests
-  - beautifulsoup4
-  - luigi
-  - hug
+  - anaconda:python=3.7.3
+  - anaconda:black
+  - anaconda:scikit-learn>=0.21.1
+  - anaconda:ipython
+  - anaconda:jupyter>=1.0.0
+  - anaconda:jupyterlab>=1.0.0
+  - anaconda:pandas
+  - anaconda:pytest==4.4.0
+  - anaconda:scikit-learn>=0.21.0
+  - anaconda:dask>=1.2.2
+  - anaconda:datashader
+  - conda-forge:geopandas>=0.5.0
+  - conda-forge:tqdm
+  - conda-forge:xlsxwriter
+  - conda-forge:hypothesis 
+  - conda-forge:luigi
+  - conda-forge:altair>=3.0.0
+  - conda-forge:missingno
   - pip
   - pip:
-    - altair
+    - fastapi>=0.34.0
+    - dvc

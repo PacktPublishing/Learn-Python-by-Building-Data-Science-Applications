@@ -11,18 +11,16 @@ def get_dom(url):
     return BeautifulSoup(response.content, "html.parser")
 
 
+def _abs_link(link, base='https://en.wikipedia.org'):
+    return base + link
+        
+
 def _table_to_dict(table):
-    """convert table with 2 columns as 
-    a dictionery"""
     result = {}
-    for row in table.find_all("tr"):
-        key = next(row.th.stripped_strings)
-        value = row.td.get_text().strip()
-
-        result[key] = value
-
+    for row in table.find_all('tr'):
+        result[row.th.text] = row.td.get_text().strip()
+        
     return result
-
 
 def _get_main_info(table):
     """finds "main" data table on the page
