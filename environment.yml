@@ -1,7 +1,7 @@
 name: packt
 channels:
-  - anaconda
   - conda-forge
+  - anaconda
 dependencies:
   - anaconda:python=3.7.3
   - anaconda:black
@@ -14,9 +14,8 @@ dependencies:
   - anaconda:scikit-learn>=0.21.0
   - anaconda:dask>=1.2.2
   - anaconda:datashader
-  - conda-forge:geopandas>=0.5.0
-  - conda-forge:tqdm
-  - conda-forge:xlsxwriter
+  - anaconda:geopandas>=0.4.1
+  - conda-forge:tqdm  
   - conda-forge:hypothesis 
   - conda-forge:luigi
   - conda-forge:altair>=3.0.0
