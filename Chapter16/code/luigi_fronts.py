@@ -10,7 +10,7 @@ URL = "https://en.wikipedia.org/wiki/List_of_World_War_II_battles"
 folder = Path(__file__).parents[1] / "data"
 
 
-class ParseFronts(luigi.Task):
+class ScrapeFronts(luigi.Task):
     url = luigi.Parameter(default=URL)
 
     def output(self):

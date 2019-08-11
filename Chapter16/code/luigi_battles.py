@@ -4,7 +4,7 @@ import time
 from pathlib import Path
 
 import luigi
-from luigi_fronts import ParseFronts
+from luigi_fronts import ScrapeFronts
 from misc import _parse_in_depth
 from wikiwwii.collect.battles import parse_battle_page
 
@@ -15,7 +15,7 @@ class ParseFront(luigi.Task):
     front = luigi.Parameter()
 
     def requires(self):
-        return ParseFronts()
+        return ScrapeFronts()
 
     def output(self):
         path = str(folder / "fronts" / f"{self.front}.json")

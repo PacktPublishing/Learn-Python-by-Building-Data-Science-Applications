@@ -5,7 +5,7 @@ from pathlib import Path
 
 import luigi
 from luigi.contrib.s3 import S3Client, S3Target
-from luigi_fronts import ParseFronts
+from luigi_fronts import ScrapeFronts
 from misc import _parse_in_depth
 from wikiwwii.collect.battles import parse_battle_page
 
@@ -18,7 +18,7 @@ class ParseFrontS3(luigi.Task):
     client = S3Client()
 
     def requires(self):
-        return ParseFronts()
+        return ScrapeFronts()
 
     def output(self):
         path = f"s3://{bucket}/wikiwii/fronts/{self.front}.json"
