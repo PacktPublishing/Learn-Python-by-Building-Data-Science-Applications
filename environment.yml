@@ -14,7 +14,9 @@ dependencies:
   - anaconda:scikit-learn>=0.21.0
   - anaconda:dask>=1.2.2
   - anaconda:datashader
-  - anaconda:geopandas>=0.4.1
+  - conda-forge:geopandas>=0.5.1
+  - conda-forge:descartes
+  - conda-forge:pydotplus 
   - conda-forge:tqdm  
   - conda-forge:hypothesis 
   - conda-forge:luigi
