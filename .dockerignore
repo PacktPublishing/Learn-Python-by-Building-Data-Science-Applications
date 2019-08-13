@@ -1,0 +1,12 @@
+.git
+.cache
+.ipynb_checkpoints
+Dockerfile
+.DS_Store
+.gitignore
+README.md
+
+*.db
+Chapter12/data/311/*
+Chapter16/data/*
+Chapter17/data/*
