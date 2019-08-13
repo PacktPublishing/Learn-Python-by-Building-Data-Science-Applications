@@ -8,9 +8,10 @@ __pycache__
 .nbgrader.log
 pdf/*
 
-Chapter12/data/pubg/deaths/*.csv
-Chapter15/data/*
+Chapter12/data/311/*.csv
+Chapter16/data/311/**/.csv
+
 *.db
 *.pkl
 *.joblib
-*.csv
+*.zip
