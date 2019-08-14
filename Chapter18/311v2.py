@@ -27,7 +27,7 @@ class naive_model:
     data = None
 
     def __init__(self):
-        path = "./model.json"
+        path = "./data/model.json"
 
         with open(path, "r") as f:
             self.data = json.load(f)
