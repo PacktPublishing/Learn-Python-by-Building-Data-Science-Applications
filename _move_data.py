@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-r", action="store_true")
 parser.add_argument("-dryrun", action="store_true")
 root_folder = Path(__file__).parent
-data_formats = ["csv", "geojson", "json", "db", "html"]
+data_formats = ["csv", "geojson", "json", "db", "html", 'pkl', 'joblib']
 FOLDER = "_data"
 
 

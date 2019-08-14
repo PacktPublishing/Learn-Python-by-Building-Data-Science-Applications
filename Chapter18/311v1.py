@@ -5,7 +5,7 @@ import json
 class naive_model:
     data = None
 
-    def __init__(self, path="./model.json"):
+    def __init__(self, path="./data/model.json"):
 
         with open(path, "r") as f:
             self.data = json.load(f)
