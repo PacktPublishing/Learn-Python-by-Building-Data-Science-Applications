@@ -13,6 +13,7 @@ dependencies:
   - anaconda:pytest==4.4.0
   - anaconda:dask>=1.2.2
   - anaconda:datashader
+  - anaconda:line_profiler
   - conda-forge:geopandas>=0.5.1
   - conda-forge:descartes
   - conda-forge:pydotplus 
