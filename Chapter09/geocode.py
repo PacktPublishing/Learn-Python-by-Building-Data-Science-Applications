@@ -5,8 +5,6 @@ from time import sleep
 import requests
 from tqdm import tqdm
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--address", help="what to search for")
 
 
 base_url = "https://nominatim.openstreetmap.org/search?"
@@ -76,6 +74,9 @@ def geocode_bulk(data, column="address", verbose=False):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--address", help="what to search for")
+    
     args=parser.parse_args()
     print(nominatim_geocode(address=args.address))
 

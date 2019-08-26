@@ -28,6 +28,7 @@ dependencies:
   - conda-forge:vdom
   - conda-forge:chalice
   - conda-forge:uvicorn
+  - conda-forge:numba
   - pip
   - pip:
     - dvc
