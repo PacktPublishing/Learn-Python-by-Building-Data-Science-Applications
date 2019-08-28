@@ -29,6 +29,7 @@ dependencies:
   - conda-forge:chalice
   - conda-forge:uvicorn
   - conda-forge:numba
+  - conda-forge:cookiecutter
+  - dvc
   - pip
-  - pip:
-    - dvc
+    
