@@ -30,6 +30,8 @@ dependencies:
   - conda-forge:uvicorn
   - conda-forge:numba
   - conda-forge:cookiecutter
+  - conda-forge:poetry>=0.12
+  - conda-forge:sphinx
   - dvc
   - pip
     
