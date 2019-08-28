@@ -11,10 +11,10 @@ dependencies:
   - anaconda:jupyterlab>=1.0.0
   - anaconda:pandas
   - anaconda:pytest==4.4.0
-  - anaconda:dask>=1.2.2
+  - anaconda:dask==1.2.2
   - anaconda:datashader
   - anaconda:line_profiler
-  - conda-forge:geopandas>=0.5.1
+  - conda-forge:geopandas==0.5.1
   - conda-forge:descartes
   - conda-forge:pydotplus 
   - conda-forge:tqdm  
@@ -22,7 +22,7 @@ dependencies:
   - conda-forge:luigi
   - conda-forge:altair>=3.0.0
   - conda-forge:missingno
-  - conda-forge:fastapi>=0.35.0
+  - conda-forge:fastapi==0.35.0
   - conda-forge:pydantic
   - conda-forge:locust
   - conda-forge:vdom
@@ -30,7 +30,7 @@ dependencies:
   - conda-forge:uvicorn
   - conda-forge:numba
   - conda-forge:cookiecutter
-  - conda-forge:poetry>=0.12
+  - conda-forge:poetry==0.12.16
   - conda-forge:sphinx
   - dvc
   - pip
