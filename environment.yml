@@ -30,10 +30,13 @@ dependencies:
   - conda-forge:boto3
   - conda-forge:chalice
   - conda-forge:uvicorn
-  - conda-forge:numba
+  - conda-forge:numba==0.44.1
   - conda-forge:cookiecutter
   - conda-forge:poetry==0.12.16
   - conda-forge:sphinx
+  - conda-forge:graphviz
+  - conda-forge:python-graphviz
+  - conda-forge:pre-commit
   - dvc
   - pip
     
