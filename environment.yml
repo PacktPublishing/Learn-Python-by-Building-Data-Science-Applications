@@ -4,39 +4,46 @@ channels:
   - anaconda
 dependencies:
   - anaconda:python=3.7.3
-  - anaconda:black
   - anaconda:scikit-learn==0.21.2
-  - anaconda:ipython
+  - anaconda:ipython==7.7.0
   - anaconda:jupyter>=1.0.0
-  - anaconda:jupyterlab>=1.0.0
-  - anaconda:pandas
+  - anaconda:jupyterlab==1.1.0
+  - anaconda:pandas==0.24.2
+  - anaconda:numpy=1.16.4
   - anaconda:pytest==4.4.0
   - anaconda:dask==1.2.2
-  - anaconda:datashader
-  - anaconda:line_profiler
+  - anaconda:datashader==0.7.0
+  - anaconda:line_profiler==2.1.2
+  - anaconda:matplotlib==3.1.1
+  - conda-forge:black==19.3b0 
+  - conda-forge:requests==2.22.0
   - conda-forge:geopandas==0.5.1
-  - conda-forge:descartes
-  - conda-forge:pydotplus 
-  - conda-forge:tqdm  
-  - conda-forge:hypothesis 
-  - conda-forge:luigi
-  - conda-forge:altair>=3.0.0
-  - conda-forge:missingno
+  - conda-forge:descartes==1.1.0
+  - conda-forge:pydotplus==2.0.2
+  - conda-forge:rtree==0.8.3
+  - conda-forge:tqdm==4.35.0
+  - conda-forge:ujson==1.35
+  - conda-forge:hypothesis=4.32.3
+  - conda-forge:luigi=2.8.7
+  - conda-forge:altair=3.2.0
+  - conda-forge:missingno==0.4.2
   - conda-forge:fastapi==0.35.0
-  - conda-forge:pydantic
-  - conda-forge:locust
-  - conda-forge:vdom
-  - conda-forge:sqlalchemy
-  - conda-forge:boto3
+  - conda-forge:pydantic==0.30
+  - conda-forge:locust==0.8
+  - conda-forge:vdom==0.6
+  - conda-forge:sqlalchemy==1.3.8
+  - conda-forge:beautifulsoup4=4.8.0
+  - conda-forge:boto3==1.9.199
   - conda-forge:chalice==1.9.1
-  - conda-forge:uvicorn
+  - conda-forge:uvicorn==0.5.1
   - conda-forge:numba==0.44.1
   - conda-forge:cookiecutter
   - conda-forge:poetry==0.12.16
-  - conda-forge:sphinx
-  - conda-forge:graphviz
-  - conda-forge:python-graphviz
-  - conda-forge:pre-commit
-  - dvc
+  - conda-forge:sphinx==2.2.0
+  - conda-forge:graphviz==2.40.1
+  - conda-forge:python-graphviz==0.12
+  - conda-forge:pre-commit==1.18.3
   - pip
+  - pip:
+    - dvc==0.54.1
     
