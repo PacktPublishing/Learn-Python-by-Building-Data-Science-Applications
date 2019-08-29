@@ -38,8 +38,8 @@ class Collect311_SQLITE(sqla.CopyToTable):
     resource = "fhrw-4uyv"
 
     columns = COLUMNS_RAW
-    connection_string = SQLITE_STRING  # SQLite database as a file
-    table = "raw"  # name of the table to store data
+    connection_string = SQLITE_STRING
+    table = "raw"
 
 
     def rows(self):
