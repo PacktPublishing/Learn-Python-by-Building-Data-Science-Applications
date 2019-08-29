@@ -28,7 +28,7 @@ dependencies:
   - conda-forge:vdom
   - conda-forge:sqlalchemy
   - conda-forge:boto3
-  - conda-forge:chalice
+  - conda-forge:chalice==1.9.1
   - conda-forge:uvicorn
   - conda-forge:numba==0.44.1
   - conda-forge:cookiecutter

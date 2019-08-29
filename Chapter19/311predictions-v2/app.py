@@ -5,7 +5,7 @@ import numpy as np
 from chalice import Chalice, Response
 import sklearn
 from ml import TimeTransformer
-BUCKET, KEY = 'philipp-packt', 'model2.pkl'
+BUCKET, KEY = 'philipp-packt', 'model.pkl'
 
 
 def _load_pickle(bucket, key):
