@@ -3,7 +3,7 @@ import pickle
 import boto3
 import numpy as np
 from chalice import Chalice, Response
-
+import sklearn
 from ml import TimeTransformer
 BUCKET, KEY = 'philipp-packt', 'model.pkl'
 
@@ -31,10 +31,11 @@ def index(complaint_type:str):
     app.log.debug(app.current_request.query_params)
     singleton[0, 0] = complaint_type
 
-    for i, col in enumerate(dtypes.keys(), 1):
+    for i, col in enumerate(dtypes.keys(), 1):     
         singleton[0, i] = dtypes[col](app.current_request.query_params.get(col, np.nan))
 
     app.log.debug(singleton.astype(str).tolist())
+
     try:
         prediction = model.predict(singleton)[0]
         app.log.debug(prediction)

@@ -7,6 +7,16 @@
       "role_name": "311prediction-dev"
     },
     {
+      "name": "collect_311",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:312870162322:function:311prediction-dev-collect_311"
+    },
+    {
+      "name": "collect_311-event",
+      "resource_type": "cloudwatch_event",
+      "rule_name": "311prediction-dev-collect_311-event"
+    },
+    {
       "name": "api_handler",
       "resource_type": "lambda_function",
       "lambda_arn": "arn:aws:lambda:us-east-1:312870162322:function:311prediction-dev"
