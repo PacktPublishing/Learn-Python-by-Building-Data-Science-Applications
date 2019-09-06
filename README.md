@@ -2,7 +2,7 @@
 
 <a href="https://www.packtpub.com/programming/learn-python-by-building-data-science-applications?utm_source=github&utm_medium=repository&utm_campaign=9781789535365"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789535365-original.jpeg" alt="Learn Python by Building Data Science Applications " height="256px" align="right"></a>
 
-This is the code repository for [Learn Python by Building Data Science Applications ](https://www.packtpub.com/programming/learn-python-by-building-data-science-applications?utm_source=github&utm_medium=repository&utm_campaign=9781789535365), published by Packt.
+This is the code repository for [Learn Python by Building Data Science Applications](https://www.packtpub.com/programming/learn-python-by-building-data-science-applications?utm_source=github&utm_medium=repository&utm_campaign=9781789535365), published by Packt.
 
 **A fun, project-based guide to learning Python 3 while building real-world apps**
 
@@ -38,7 +38,7 @@ for word in 'Hello Word!'.split():
 **Following is what you need for this book:**
 This book is aimed at new Python developers with little to no prior programming skills beyond basic computer literacy. The book doesn't require any previous background in data science or statistics either. That being said, it covers a variety of topics, from data processing to visualization, to delivery—including dashboards, building APIs, Extract, Transform, Load (ETL) pipelines, or a standalone package. Thus, it is also suited to experienced data scientists interested in productizing their work. For a complete novice, this book aims to cover all major parts of the data application life cycle—from Python basics to scripts, data collection and processing, and the delivery of your work in different formats.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-20).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
