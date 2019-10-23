@@ -15,3 +15,5 @@ Chapter16/data/311/**/*.csv
 *.pkl
 *.joblib
 _data.zip
+videos
+out
